@@ -1,0 +1,15 @@
+.error-message {
+    font-size: 15px;
+    font-weight: 600;
+    color: #dc3545!important;
+}
+.snackbar-container{
+    background: rgb(59, 63, 92) !important;
+    border-radius: 0.5rem !important;
+}
+.snackbar-container p{
+    color: rgb(255, 255, 255) !important;
+}
+.snackbar-container button{
+    color: rgb(34, 199, 213) !important;
+}
