@@ -13,7 +13,7 @@
                         </div>
 
                         <p>Automate hotel operations with Savitar's all-in-one Hotel PMS solution: manage bookings, guest services, billing, and analytics seamlessly on one powerful platform.</p>
-                        <a href="./contact_us.php" class="btn-green">Request a Demo</a>
+                        <?= anchor('contact-us', 'Request a Demo', 'class="btn-green"'); ?>                        
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-12 col-sm-12 mt-4 mt-md-0">
@@ -33,14 +33,14 @@
         <!--================Reservation Area =================-->
         <section class="my-5 py-5 ">
             <div class="container bg-darkblue radius-20 p-5">
-                <div class="row align-items-center ">
-                    <div class="col-md-6  p-3">
+                <div class="row align-items-center reverse">
+                    <div class="col-lg-6  p-3">
                         <h2 class="wow fadeInUp mb-4 text-white"> More Than a PMS: Streamline with Our Integrated Solution
                         </h2>
-                        <p class="fs-5  text-white mt-5" data-wow-delay="0.25s">Say goodbye to outdated systems! Our solution is more than just a Hotel PMS—it’s your all-in-one toolkit for effortless hotel and hospitality management. Packed with top-tier features, our platform simplifies everything from reservations to billing and guest services. Streamline your operations and elevate your guest experience with ease
+                        <p class="fs-5  text-white mt-lg-5" data-wow-delay="0.25s">Say goodbye to outdated systems! Our solution is more than just a Hotel PMS—it’s your all-in-one toolkit for effortless hotel and hospitality management. Packed with top-tier features, our platform simplifies everything from reservations to billing and guest services. Streamline your operations and elevate your guest experience with ease
                         </p>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-lg-6 ">
 
                         <img src="./assets/video/Comp 2.gif" alt="reservations"
                             class="img-fluid wow fadeInUp " data-wow-delay="0.5s">
@@ -430,7 +430,7 @@
                         <h2 class="text-white">Get rid of your tech hotel </h2>
                         <p class="text-white">Automate your hotel operations by replacing your outdated PMS with our all-in-one solution. Simplify management, improve efficiency, and enhance guest satisfaction easily.
                         </p>
-                        <a href="./contact_us.php" class="btn-transparent">Add Call to Action</a>
+                        <?= anchor('contact-us', 'Add Call to Action', 'class="btn-transparent"'); ?>                       
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12  text-white" style="padding-left: 8%;">
                         <ul class="fs-4">
@@ -451,7 +451,7 @@
                             <h2 class="text-white mt-2">An Add Ons Extend The Platforms’ Capabilities </h2>
                             <p class="text-white">Boost Savitar PMS with our add-ons to extend its capabilities. Customize features, integrate enhanced services, and tailor the platform to meet your hotel's unique needs.
                             </p>
-                            <a href="./contact_us.php" class="btn-transparent">Explore market place</a>
+                            <?= anchor('contact-us', 'Explore market place', 'class="btn-transparent"'); ?>                            
                             <img src="./assets/images/add ons.png" alt="add ons" class="img-fluid">
                         </div>
 
@@ -462,7 +462,7 @@
                             </h2>
                             <p class="">Boost your hotel’s visibility with effortless access to 300+ OTAs. Connect effortlessly and attract more guests with our extensive booking network.
                             </p>
-                            <a href="./contact_us.php" class="btn-green">Explore market place</a>
+                            <?= anchor('contact-us', 'Explore market place', 'class="btn-green"'); ?>                            
                             <img src="./assets/images/Distribution.gif" alt="distribution" class="img-fluid">
                         </div>
 

@@ -69,43 +69,36 @@
                  <swiper-slide class="col-lg-4">
                      <div class="testimonial-box ">
                          <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
-                         <h3>David Thompson</h3>
-                         <p>Sydney, Australia.</p>
+                         <p>Savitar PMS has transformed the way we manage our operations. The intuitive interface and seamless integration with our booking system have streamlined our front desk processes. Our staff finds it incredibly user-friendly, and the customer support team has been exceptional in addressing any issues. We couldn't be happier with our choice!</p>
+                         <h3>Emily Johnson</h3>
+                         <!-- <p>Sydney, Australia.</p> -->
                      </div>
                  </swiper-slide>
                  <swiper-slide class="col-lg-4">
                      <div class="testimonial-box ">
                          <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
-                         <h3>David Thompson</h3>
-                         <p>Sydney, Australia.</p>
+                         <p>We've been using Savitar PMS for over a year now, and it's been a game-changer for our business. The real-time reporting and analytics have given us invaluable insights into our operations, helping us make more informed decisions. It's an indispensable tool that has significantly improved our efficiency and guest satisfaction.</p>
+                         <h3>Michael Lee</h3>
+                         <!-- <p>Sydney, Australia.</p> -->
                      </div>
                  </swiper-slide>
                  <swiper-slide class="col-lg-4">
                      <div class="testimonial-box ">
                          <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
-                         <h3>David Thompson</h3>
-                         <p>Sydney, Australia.</p>
+                         <p>Savitar PMS is a top-notch solution for any hotel looking to enhance their management capabilities. The software's ease of use and comprehensive features have simplified our booking processes and improved our guest interactions. Plus, the support team is always ready to assist with any questions. We highly recommend Savitar PMS!</p>
+                         <h3>Samantha Rivera</h3>
+                         <!-- <p>Sydney, Australia.</p> -->
                      </div>
                  </swiper-slide>
                  <swiper-slide class="col-lg-4">
                      <div class="testimonial-box ">
                          <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <p>Adopting Savitar PMS was one of the best decisions we've made. The software's advanced features, such as automated check-in and real-time inventory management, have made a huge difference in our day-to-day operations. It's reliable, efficient, and the customer service is outstanding. Our team loves it!</p>
                          <h3>David Thompson</h3>
-                         <p>Sydney, Australia.</p>
+                         <!-- <p>Sydney, Australia.</p> -->
                      </div>
                  </swiper-slide>
-                 <swiper-slide class="col-lg-4">
-                     <div class="testimonial-box s">
-                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
-                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
-                         <h3>David Thompson</h3>
-                         <p>Sydney, Australia.</p>
-                     </div>
-                 </swiper-slide>
+                
                  <!-- Repeat swiper-slide as needed -->
              </swiper-container>
          </div>

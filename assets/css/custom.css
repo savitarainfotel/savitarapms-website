@@ -127,7 +127,9 @@ a:focus {
 .nav-link {
   color: #001238 !important;
 }
-
+.dropdown-item.active{
+  background-color: #126cb5 !important;
+}
 /*=======navbar css===========*/
 /*============= banner_area css =============*/
 /* .bg-image{
@@ -379,6 +381,15 @@ img.vert-move {
 .post-pagination ul li a:hover {
   background: var(--secondary-color);
   color: var(--accent-color);
+}
+.page-link {
+  color: #126cb5 !important;
+}
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #126cb5 !important;
+  border-color: #126cb5 !important;
 }
 /*============= blog css =============*/
 /*============= Footer css =============*/

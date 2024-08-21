@@ -11,6 +11,9 @@
     main  {
         /* padding-top: 20px; */
     }
+    h1{
+        font-size: 35px;
+    }
     .banner_content h1 {
         font-size: 1rem;
     }
@@ -32,6 +35,9 @@
 @media (max-width: 768px){
     main {
         margin-top: 85px;
+    }
+    h1{
+        font-size: 30px;
     }
     h2{
         font-size: 25px;

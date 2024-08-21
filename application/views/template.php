@@ -55,22 +55,22 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <?= anchor('', 'Payroll Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Payroll Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Digital Marketing', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Digital Marketing', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Website Builder', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Website Builder', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Revenue Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Revenue Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Repetition Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Repetition Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
+                                    <?= anchor('javascript:;', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
                                 </li>
                             </ul>
                         </li>
@@ -150,10 +150,11 @@
                             </div>
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
-                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fab fa-instagram google-bg"></i></a>
-                                <a href="#"><i class="fab fa-linkedin facebook-bg"></i></a>
+                                <a href="https://www.facebook.com/profile.php?id=61560490731398"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="https://x.com/savitar_pms"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://www.instagram.com/savitar_.pms/"><i class="fab fa-instagram google-bg"></i></a>
+                                <a href="https://www.linkedin.com/company/savitar-pms/"><i class="fab fa-linkedin facebook-bg"></i></a>
+                                <a href="https://www.youtube.com/@savitarpms"><i class="fab fa-youtube twitter-bg"></i></a>
                             </div>
                         </div>
                     </div>
