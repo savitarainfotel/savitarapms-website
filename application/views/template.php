@@ -10,164 +10,92 @@
     <?= link_tag('assets/favicon.png' . ASSET_VERSION, 'shortcut icon', 'image/x-icon') ?>
     <?php $this->load->view('seo-data'); ?>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 
-    <!-- Google Fonts Css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet">
-    <!-- Bootstrap Css -->
-    <?= link_tag('assets/css/bootstrap.min.css' . ASSET_VERSION) ?>
-    <!-- SlickNav Css -->
-    <?= link_tag('assets/css/slicknav.min.css' . ASSET_VERSION) ?>
-    <!-- Swiper Css -->
-    <?= link_tag('assets/css/swiper-bundle.min.css' . ASSET_VERSION) ?>
-    <!-- Font Awesome Icon Css-->
-    <?= link_tag('assets/css/all.css' . ASSET_VERSION) ?>
-    <!-- Animated Css -->
-    <?= link_tag('assets/css/animate.css' . ASSET_VERSION) ?>
-    <!-- Magnific Popup Core Css File -->
-    <?= link_tag('assets/css/magnific-popup.css' . ASSET_VERSION) ?>
-    <!-- Main Custom Css -->
     <?= link_tag('assets/css/custom.css' . ASSET_VERSION) ?>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R4CYP6TQQ7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-R4CYP6TQQ7');
-    </script>
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "nfbi5hds9e");
-    </script>
+    <?= link_tag('assets/css/responsive.css' . ASSET_VERSION) ?>
 </head>
 
-<body class="tt-magic-cursor">
-    <!-- Preloader Start -->
-    <div class="preloader">
-        <div class="loading-container">
-            <div class="loading"></div>
-            <div id="loading-icon">
-                <?= img(['src' => "assets/logo.png", 'alt' => "Savitara Infotel Logo"]); ?>
-            </div>
-        </div>
-    </div>
-    <!-- Preloader End -->
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <?= anchor('', img(['src' => "assets/logo.png", 'alt' => "savitara infotel logo", "class" => "img-fluid"]), 'class="navbar-brand"'); ?>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <!-- Magic Cursor Start -->
-    <div id="magic-cursor">
-        <div id="ball"></div>
-    </div>
-    <!-- Magic Cursor End -->
-
-    <!-- Header Start -->
-    <header class="main-header">
-        <div class="header-sticky">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <!-- Logo Start -->
-                    <?= anchor('', img(['src' => "assets/logo.png", 'alt' => "savitara infotel logo"]), 'class="navbar-brand"'); ?>
-                    <!-- Logo End -->
-
-                    <!-- Main Menu Start -->
-                    <div class="collapse navbar-collapse main-menu">
-                        <div class="nav-menu-wrapper">
-                            <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item">
-                                    <?= anchor('', "home", 'class="nav-link"'); ?>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Features</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <?= anchor('crs-intigration', 'Savitar CRS Integration', 'class="dropdown-item"'); ?>
                                 </li>
-                                <li class="nav-item">
-                                    <?= anchor('about', "about us", 'class="nav-link"'); ?>
+                                <li>
+                                    <?= anchor('channel-manager', 'Savitar Channel Manager', 'class="dropdown-item"'); ?>
                                 </li>
-                                <li class="nav-item submenu">
-                                    <?= anchor('services', "services", 'class="nav-link"'); ?>
-                                    <ul>
-                                        <li class="nav-item">
-                                            <?= anchor('web-development', "web-development", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('digital-marketing', "Digital Marketing ", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('game-development-services', "Game Development", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('mobile-application-development', "Mobile App Development", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('networking-services', "Networking Services", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('graphics-design', "Graphics Design", 'class="nav-link"'); ?>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <?= anchor('user-dashboard', 'UserDashboard', 'class="dropdown-item"'); ?>
                                 </li>
-                                <li class="nav-item ">
-                                    <?= anchor('portfolio', "portfolio", 'class="nav-link"'); ?>
-                                    <!-- <ul>
-                                        <li class="nav-item">
-                                            <?= anchor('', "web development", 'class="nav-link"'); ?>
-                                        </li>
-                                        <li class="nav-item">
-                                            <?= anchor('', "Digital Marketing ", 'class="nav-link"'); ?>
-                                        </li>                                       
-                                        <li class="nav-item">
-                                            <?= anchor('', "Graphics Design", 'class="nav-link"'); ?>
-                                        </li>
-                                    </ul> -->
+                                <li>
+                                    <?= anchor('receptionist', 'Receptionist', 'class="dropdown-item"'); ?>
                                 </li>
-                                <li class="nav-item">
-                                    <?= anchor('contact-us', "Contact us", 'class="nav-link"'); ?>
-                                </li>
-                                <li class="nav-item">
-                                    <?= anchor('blogs', "blogs", 'class="nav-link"'); ?>
-                                </li>
-                                <li class="nav-item">
-                                    <?= anchor('career', "career", 'class="nav-link"'); ?>
-                                </li>
-                                <li class="nav-item submenu">
-                                    <!-- <a class="nav-link" href="javascript:;">pages</a> -->
-                                    <!-- <ul>
-                                            <li class="nav-item">
-                                                <?= anchor('', "service details", 'class="nav-link"'); ?>
-                                            </li>
-                                            <li class="nav-item">
-                                                <?= anchor('', "portfolio details ", 'class="nav-link"'); ?>
-                                            </li>
-                                            <li class="nav-item">
-                                                <?= anchor('', "blog details", 'class="nav-link"'); ?>
-                                            </li>
-                                            <li class="nav-item">
-                                                <?= anchor('', "FAQ", 'class="nav-link"'); ?>
-                                            </li>
-                                            <li class="nav-item">
-                                                <?= anchor('', "404", 'class="nav-link"'); ?>
-                                            </li>
-                                        </ul> -->
-                                </li>
-                                <li class="nav-item highlighted-menu">
-                                    <?= anchor('contact-us', 'free consultation', 'class="nav-link"'); ?>
+                                <li>
+                                    <?= anchor('admin', 'Admin', 'class="dropdown-item"'); ?>
                                 </li>
                             </ul>
-                        </div>
-                        <!-- Let’s Start Button Start -->
-                        <div class="header-btn d-inline-flex">
-                            <?= anchor('contact-us', 'free consultation', 'class="btn-default"'); ?>
-                        </div>
-                        <!-- Let’s Start Button End -->
-                    </div>
-                    <!-- Main Menu End -->
-
-                    <div class="navbar-toggle"></div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Add On
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <?= anchor('', 'Payroll Management', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Digital Marketing', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Website Builder', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Revenue Management', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Repetition Management', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="javascript:;" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Comapny
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <?= anchor('about', 'About Us', 'class="dropdown-item"'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('blogs', 'Blogs', 'class="dropdown-item"'); ?>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <?= anchor('contact-us', 'Contact us', 'class="nav-link active"'); ?>
+                            
+                        </li>
+                    </ul>
+                    <?= anchor('contact-us', 'Request a Demo', 'class="btn-green"'); ?>
                 </div>
-            </nav>
-            <div class="responsive-menu"></div>
-        </div>
+            </div>
+        </nav>
     </header>
     <?php
     if (isset($breadcrumb)) :
@@ -176,138 +104,139 @@
 
     echo $contents;
     ?>
-
-    <footer class="main-footer">
+    <footer class="footer-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- Mega Footer Start -->
-                    <div class="mega-footer">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-12">
-                                <!-- Footer About Start -->
-                                <div class="footer-about">
-                                    <figure>
-                                        <?= anchor('', img(['src' => "assets/logo.png", 'alt' => "Savitara Infotel Logo"])); ?>
-                                    </figure>
-                                    <p class="mt-4">When you work with Savitara Infotel, you’re not just a client; you’re a partner. We get to know your company.</p>
-                                    <ul>
-                                        <li><a href="mailto:">info@savitarainfotel.com</a></li>
-                                        <li><a href="tel:+91 9081907502"><img src="assets/images/adr-flag-ind.png"> INDIA : (+91) 90 819 07 502 </a></li>
-                                        <li><a href="tel:+1 608 421-8497"><img src="assets/images/adr-flag-us.png"> USA : (+1) 608 421-8497 </a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer About End -->
-                            </div>
-
-                            <div class="col-lg-2 col-md-4">
-                                <!-- Footer Links Start -->
-                                <div class="footer-links">
-                                    <h2>pages</h2>
-                                    <ul>
-
-                                        <li><?= anchor('about', 'About Us'); ?></li>
-                                        <li><?= anchor('services', 'Services'); ?></li>
-                                        <li><?= anchor('blogs', 'Blog'); ?></li>
-                                        <li><?= anchor('contact-us', 'Contact Us'); ?></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Links End -->
-                            </div>
-
-                            <div class="col-lg-2 col-md-4">
-                                <!-- Footer Links Start -->
-                                <div class="footer-links">
-                                    <h2>Socials</h2>
-                                    <ul>
-                                        <li><a href="https://www.instagram.com/savitarainfotelpvtltd?igsh=MWRtZ2c1ZDd3eGd3dw==">instagram</a></li>
-                                        <!-- <li><a href="javascript:;">facebook</a></li> -->
-                                        <!-- <li><a href="javascript:;">twitter</a></li> -->
-                                        <li><a href="https://www.linkedin.com/company/savitara-infotel-pvt-ltd/">linkedin</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Links End -->
-                            </div>
-
-                            <div class="col-lg-2 col-md-4">
-                                <!-- Footer Links Start -->
-                                <div class="footer-links">
-                                    <h2>services</h2>
-                                    <ul>
-                                        <li><a href="web-development">web development</a></li>
-                                        <li><a href="digital-marketing">digital marketing</a></li>
-                                        <li><a href="game-development-services">game development</a></li>
-                                        <li><a href="mobile-application-development">mobile app development</a></li>
-                                        <li><a href="networking-services">networking services</a></li>
-                                        <li><a href="graphics-design">graphic design</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Links End -->
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>FF - 123, I Square, Science City Rd, nr. shukan mall,Crossroads,Sola, Ahmedabad, Gujarat 380060</span><br>
                             </div>
                         </div>
                     </div>
-                    <!-- Mega Footer End -->
-
-                    <!-- Copyright Footer Start -->
-                    <div class="footer-copyright">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <!-- Footer Copyright Content Start -->
-                                <div class="footer-copyright-text">
-                                    <p>Copyright © 2024 Savitara Infotel Pvt. Ltd. All rights reserved.</p>
-                                </div>
-                                <!-- Footer Copyright Content End -->
-                            </div>
-                            <div class="col-lg-6">
-                                <!-- Footer Policy Links Start -->
-                                <div class="footer-policy-links">
-                                    <ul>
-                                        <li><a href="privacypolicy">privacy policy</a></li>
-                                        <li><a href="termsofservice">terms of service</a></li>
-                                        <li class="highlighted"><a href="#top">go to top</a></li>
-                                    </ul>
-                                </div>
-                                <!-- Footer Policy Links End -->
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta d-flex">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+1 (608) 421-8497</span>
                             </div>
                         </div>
                     </div>
-                    <!-- Copyright Footer End -->
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta d-flex">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>sales@savitarpms.com</span><br>
+                                <span>info@savitarpms.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <?= anchor('', img(['src' => "assets/logo.png", 'alt' => "savitara infotel logo", "class" => "img-fluid"])); ?>
+                            </div>
+                            <div class="footer-text">
+                                <p>Effortlessly manage your hotel operations with Savitar's new Property Management System (PMS). Streamline bookings, enhance guest experiences, and optimize your business with our cutting-edge, user-friendly software and Addons.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-instagram google-bg"></i></a>
+                                <a href="#"><i class="fab fa-linkedin facebook-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget pl-60">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li>
+                                    <?= anchor('', 'Home'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('about', 'About us'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('blogs', 'Blog'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('contact-us', 'Contact us'); ?>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a href="javascript:;">Savitar PMS</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li>
+                                    <?= anchor('', 'Home'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Terms'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Privacy'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('', 'Policy'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('contact-us', 'Contact us'); ?>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- Footer End -->
-
-    <!-- Jquery Library File -->
-    <?= script("assets/js/jquery-3.7.1.min.js" . ASSET_VERSION); ?>
-    <!-- Bootstrap js file -->
-    <?= script("assets/js/bootstrap.min.js" . ASSET_VERSION); ?>
-    <!-- Validator js file -->
-    <?= script("assets/js/validator.min.js" . ASSET_VERSION); ?>
-    <!-- SlickNav js file -->
-    <?= script("assets/js/jquery.slicknav.js" . ASSET_VERSION); ?>
-    <!-- Swiper js file -->
-    <?= script("assets/js/swiper-bundle.min.js" . ASSET_VERSION); ?>
-    <!-- Counter js file -->
-    <?= script("assets/js/jquery.waypoints.min.js" . ASSET_VERSION); ?>
-    <?= script("assets/js/jquery.counterup.min.js" . ASSET_VERSION); ?>
-    <!-- Isotop js file -->
-    <?= script("assets/js/isotope.min.js" . ASSET_VERSION); ?>
-    <!-- Magnific js file -->
-    <?= script("assets/js/jquery.magnific-popup.min.js" . ASSET_VERSION); ?>
-    <!-- SmoothScroll -->
-    <?= script("assets/js/SmoothScroll.js" . ASSET_VERSION); ?>
-    <!-- MagicCursor js file -->
-    <?= script("assets/js/gsap.min.js" . ASSET_VERSION); ?>
-    <?= script("assets/js/magiccursor.js" . ASSET_VERSION); ?>
-    <!-- Text Effect js file -->
-    <?= script("assets/js/SplitText.js" . ASSET_VERSION); ?>
-    <?= script("assets/js/ScrollTrigger.min.js" . ASSET_VERSION); ?>
-    <!-- Wow js file -->
-    <?= script("assets/js/wow.js" . ASSET_VERSION); ?>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <!-- Main Custom js file -->
-    <?= script("assets/js/function.js" . ASSET_VERSION); ?>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <?= script("assets/js/custom.js" . ASSET_VERSION); ?>
 </body>
 
 </html>

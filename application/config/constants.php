@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-define('APP_NAME', 'Savitara Infotel PVT LTD');
+define('APP_NAME', 'Savitar PMS');
 define('PATH_INFOS', isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : (isset($_SERVER['SCRIPT_URL']) ? $_SERVER['SCRIPT_URL'] : ''));
 define('ADMIN', 'admin-panel');
 define('ASSET_VERSION', '?v='.($_SERVER['SERVER_NAME'] !== 'localhost' ? '1.0.3' : time()));

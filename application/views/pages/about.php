@@ -1,538 +1,116 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<main>
+     <section>
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-6 mt-5">
+                     <img src="./assets/images/about us.png" alt="" srcset="" class="img-fluid">
+                 </div>
+                 <div class="col-lg-6 p-4 align-content-center">
+                     <h1>About Comapany</h1>
+                     <h3>Welcome to Savitar PMS! We are dedicated to providing one of the best hotel property management systems in the USA. Our innovative, cloud-based software is designed to streamline your hotel’s operations, enhance guest experiences, and boost profitability.</h3>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section>
+         <div class="container my-5">
+             <h2>why choose us</h2>
+             <p class="mb-5"> Savitar PMS offers one of the best property management systems for hotels across the USA. Our user-friendly, cloud-based software provides comprehensive hotel management solutions, from reservations to guest services, with cutting-edge technology and seamless integration. Join the leading hotels in transforming your management processes and elevating guest experiences with Savitar PMS.
 
- <div class="page-about">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <!-- About Us Image Start -->
-                    <div class="page-about-image">
-                        <div class="about-img-1">
-                            <figure class="image-anime reveal">
-                            <?= img(['src'=>"assets/images/page-about-1.jpg", 'alt'=>"about"]); ?>
-                                
-                            </figure>
-                        </div>
-                        <div class="about-img-2">
-                            <figure class="image-anime reveal">
-                            <?= img(['src'=>"assets/images/page-about-2.jpg", 'alt'=>"about"]); ?>
-                               
-                            </figure>
-                        </div>
-                        <div class="work-experience">
-                            <div class="work-experience-icon">
-                                <!-- <img src="images/icon-work-experience.svg" alt=""> -->
-                                <?= img(['src'=>"assets/images/icon-work-experience.svg", 'alt'=>"work experience"]); ?>
-                            </div>
-                            <div class="work-experience-content">
-                                <h3><span class="counter">5</span>+</h3>
-							    <p>Work Experience</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- About Us Image End -->
-                </div>
+                 Designed specifically for the US market, Savitar PMS supports your hotel’s needs with exceptional training and ongoing innovation.
 
-                <div class="col-lg-6">
-                    <!-- About Us Content Start -->
-                    <div class="about-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">about us</h3>
-                            <h2 class="text-anime-style-3">More About Our Success Stories</h2>
-                        </div>
-                        <!-- Section Title End -->
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Savitara Infotel is a leading provider of innovative IT solutions, specializing in web design, social media marketing, mobile application development, custom software solutions, and cloud-based services. </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">Established with a passion for technology and a commitment to excellence, we have built a reputation for delivering cutting-edge solutions that drive results. Our team of experienced professionals is dedicated to helping businesses thrive in the digital age by harnessing the power of technology to achieve their goals. With a focus on creativity, collaboration, and customer satisfaction, we strive to be your trusted partner in digital transformation.</p>
-                        
-                        <ul class="wow fadeInUp" data-wow-delay="0.75s">
-                            <li>Professional staff</li>
-                            <li>Satisfying customers</li>
-                            <li>Expertise and Experience</li>
-                            <li>Time Zone Aligned</li>
-                            <li>Full Flexibility</li>
-                            <li>Proactive Support</li>
-                        </ul>
-                    </div>
-                    <!-- About Us Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Page About Section End -->
+                 Join the leading hotels in transforming your management processes and elevating guest experiences with Savitar PMS.</p>
+             <div class="row g-3">
+                 <div class="col-lg-3 ">
+                     <div class="p-3 bg-white radius-20 h-100">
+                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M320,32a32,32,0,0,0-64,0v96h64Zm48,128H16A16,16,0,0,0,0,176v32a16,16,0,0,0,16,16H32v32A160.07,160.07,0,0,0,160,412.8V512h64V412.8A160.07,160.07,0,0,0,352,256V224h16a16,16,0,0,0,16-16V176A16,16,0,0,0,368,160ZM128,32a32,32,0,0,0-64,0v96h64Z"></path>
+                         </svg>
+                         <h3>Interface Integration</h3>
+                         <p>Seamlessly connect and synchronise interfaces within your property management system, ensuring smooth data flow and enhanced operational efficiency.</p>
+                     </div>
 
-    <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8 col-md-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">why choose us</h3>
-                        <h2 class="text-anime-style-3">Why choose us ?</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="icon-box">
-                            <!-- <img src="images/icon-whyus-1.svg" alt=""> -->
-                            <?= img("assets/images/icon-whyus-1.svg"); ?>
-                        </div>
-                        <h3>innovation</h3>
-                        <p>Savitara Infotel thrives on innovation, constantly evolving to deliver cutting-edge web
-                        development and digital marketing solutions. Our commitment to creativity drives us to pioneer
-                        new approaches, ensuring our clients stay ahead in the digital,</p>                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="icon-box">
-                            <?= img("assets/images/icon-whyus-2.svg"); ?>
-                        </div>
-                        <h3>quality-focused</h3>
-                        <p>At Savitara Infotel, we're dedicated to being quality-focused in every aspect of our IT services,
-                        ensuring unparalleled excellence for our clients. Our relentless pursuit of quality sets us
-                        apart, delivering solutions that exceed expectations and drive success,</p>                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-lg-4">
-                    <!-- Why Choose Item Start -->
-                    <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
-                        <div class="icon-box">
-                            <!-- <img src="images/icon-whyus-3.svg" alt=""> -->
-                            <?= img("assets/images/icon-whyus-3.svg"); ?>
-                        </div>
-                        <h3>Technical Expertise</h3>
-                        <p>At Savitara Infotel, our foundation is built on technical expertise, empowering us to deliver
-                        top-tier web development and digital marketing solutions. With a team of skilled professionals,
-                        we harness our technical prowess to drive innovation and excellence for our clients,</p>                    </div>
-                    <!-- Why Choose Item End -->
-                </div>
-
-                <div class="col-md-12">
-                    <!-- Why Us Explore Item Start -->
-                    <div class="why-us-explore-item">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="why-us-section-title">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                    <h3 class="wow fadeInUp">OUR EXPERIENCE</h3>
-                                        <h2 class="text-anime-style-3">Crafting Experiences, Inspiring Connections</h2>
-                                    </div>
-                                    <!-- Section Title End -->
-
-                                    <!-- Explore Item Icon Start -->
-                                    <div class="explore-item-icon">
-                                        <!-- <img src="images/icon-whyus-4.svg" alt=""> -->
-                                        <?= img("assets/images/icon-whyus-4.svg.svg"); ?>
-                                    </div>
-                                    <!-- Explore Item Icon End -->
-                                </div>
-                            </div>
-                        </div>                        
-
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-                                <!-- Explore Item Content Start -->
-                                <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                    <p>With years of experience in the IT industry, SavitaInfotel has built a reputation for excellence and innovation. Our team consists of seasoned professionals with expertise in web design and development, social media marketing, mobile application development, custom software solutions, and cloud-based services</p>
-                                    <p>We have successfully completed projects for clients across various sectors, ranging from startups and small businesses to large enterprises. Our track record of delivering high-quality solutions on time and within budget speaks to our commitment to client satisfaction and our ability to exceed expectations.</p>
-                                </div>
-                                <!-- Explore Item Content End -->
-                            </div>
-
-                           
-                        </div>                        
-                    </div>
-                    <!-- Why Us Explore Item End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Why Choose us Section End -->
-
-    <!-- Exclusive Partners Section Start -->
-    <div class="hero">
-		<div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-8">
-                    <!-- Hero Content Start -->
-                    <div class="hero-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">OUR MISSION</h3>
-                            <h1 class="text-anime-style-3">Fostering Growth, Creating Impact <span>Your Business</span></h1>
-                        </div>
-                        <!-- Section Title End -->
-
-                        <!-- Hero Body Start -->
-                        <div class="hero-body">
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">Our mission at SavitaInfotel is to deliver exceptional IT solutions that exceed our clients' expectations and help them achieve their business objectives. We are dedicated to understanding our clients' unique needs and challenges, and we leverage our expertise, creativity, and technology to develop customized solutions that address their specific requirements.</p>
-                        </div>
-                        <!-- Hero Body End -->
-
-                        <!-- Hero Footer Start -->
-                    
-                        <!-- Hero Footer End -->
-                    </div>
-                    <!-- Hero Left Content End -->
-                </div>
-
-                <div class="col-lg-4">
-                    <!-- Hero Video Image Start -->
-                    <div class="hero-video-image">
-                        <div class="hero-image">
-                            <figure class="image-anime reveal">
-                                <?= img("assets/images/hero-img.jpg"); ?>
-                            </figure>                            
-                        </div>
-
-                        <div class="hero-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video"><i class="fa-solid fa-play"></i></a>
-                        </div>
-                    </div>
-                    <!-- Hero Video Image End -->
-                </div>
-            </div>
-        </div>
-	</div>
-    <!-- Exclusive Partners Section End -->
-
-    <!-- Overview Comapny Section Start -->
-    <div class="col-md-12">
-                    <!-- Why Us Explore Item Start -->
-                    <div class="why-us-explore-item">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="why-us-section-title">
-                                    <!-- Section Title Start -->
-                                    <div class="section-title">
-                                    <h3 class="wow fadeInUp">OUR VISION</h3>
-                                        <h2 class="text-anime-style-3">Transforming Visions into Reality</h2>
-                                    </div>
-                                    <!-- Section Title End -->
-
-                                    <!-- Explore Item Icon Start -->
-                                    <div class="explore-item-icon">
-                                        <!-- <img src="images/icon-whyus-4.svg" alt=""> -->
-                                        <?= img("assets/images/icon-whyus-4.svg.svg"); ?>
-                                    </div>
-                                    <!-- Explore Item Icon End -->
-                                </div>
-                            </div>
-                        </div>                        
-
-                        <div class="row align-items-center">
-                            <div class="col-lg-12">
-                                <!-- Explore Item Content Start -->
-                                <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                    <p>Our vision at Savitara Infotel is to empower businesses of all sizes to succeed in the digital era by providing innovative and tailored IT solutions that drive growth, efficiency, and competitive advantage.</p>
-                                    <p>We aspire to be a trusted partner and industry leader known for our expertise, integrity, and commitment to excellence. Through continuous innovation, strategic partnerships, and a customer-centric approach, we aim to make a positive impact on our clients, employees, and communities we serve.</p>
-                                </div>
-                                <!-- Explore Item Content End -->
-                            </div>
-
-                           
-                        </div>                        
-                    </div>
-    <!-- Overview Comapny Section End -->
-
-    <!-- Our Team Section Start -->
-    <!-- <div class="our-team">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12"> -->
-                    <!-- Section Title Start -->
-                    <!-- <div class="section-title">
-                        <h3 class="wow fadeInUp">our team</h3>
-                        <h2 class="text-anime-style-3">Meet the expert</h2>
-                    </div> -->
-                    <!-- Section Title End -->
-                <!-- </div>
-            </div> -->
-
-            <!-- <div class="row">
-                <div class="col-lg-3 col-md-6"> -->
-                    <!-- Team Member Item Start -->
-                    <!-- <div class="team-member-item wow fadeInUp" data-wow-delay="0.25s"> -->
-                        <!-- Team Img Start -->
-                        <!-- <div class="team-image">
-                            <figure>
-                                <?= img("assets/images/team-1.jpg"); ?>
-                            </figure>
-
-                            <div class="our-team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <!-- Team Img End -->
-
-                        <!-- Team Body Start -->
-                        <!-- <div class="team-body">
-                            <div class="team-content">
-                                <h3>Arita Banson</h3>
-                                <p>Founder & CEO</p>
-                            </div>
-                            <div class="team-icon"> 
-                                <a href="#"><img src="assets/images/icon-share.svg" alt=""></a>
-                        
-                            </div>
-                        </div> -->
-                        <!-- Team Body End -->
-                    <!-- </div> -->
-                    <!-- Team Member Item End -->
-                <!-- </div> -->
-
-                <!-- <div class="col-lg-3 col-md-6"> -->
-                    <!-- Team Member Item Start -->
-                    <!-- <div class="team-member-item wow fadeInUp" data-wow-delay="0.5s"> -->
-                        <!-- Team Img Start -->
-                        <!-- <div class="team-image"> -->
-                            <!-- <figure> -->
-                                <!-- <?= img("assets/images/team-2.jpg"); ?> -->
-                            <!-- </figure> -->
-
-                            <!-- <div class="our-team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <!-- Team Img End -->
-
-                        <!-- Team Body Start -->
-                        <!-- <div class="team-body">
-                            <div class="team-content">
-                                <h3>John Doe</h3>
-                                <p>Sr. Development</p>
-                            </div>
-                            <div class="team-icon"> 
-                                <a href="#"><img src="assets/images/icon-share.svg" alt=""></a>
-                                
-                            </div>
-                        </div> -->
-                        <!-- Team Body End -->
-                    <!-- </div> -->
-                    <!-- Team Member Item End -->
-                <!-- </div> -->
-
-                <!-- <div class="col-lg-3 col-md-6"> -->
-                    <!-- Team Member Item Start -->
-                    <!-- <div class="team-member-item wow fadeInUp" data-wow-delay="0.75s"> -->
-                        <!-- Team Img Start -->
-                        <!-- <div class="team-image">
-                            <figure>
-                                <?= img("assets/images/team-3.jpg"); ?>
-                            </figure>
-
-                            <div class="our-team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <!-- Team Img End -->
-
-                        <!-- Team Body Start -->
-                        <!-- <div class="team-body">
-                            <div class="team-content">
-                                <h3>Arita Doe</h3>
-                                <p>Sr. Designer</p>
-                            </div>
-                            <div class="team-icon"> 
-                                <a href="#"><img src="assets/images/icon-share.svg" alt=""></a>
-                              
-                                
-                            </div>
-                        </div> -->
-                        <!-- Team Body End -->
-                    <!-- </div> -->
-                    <!-- Team Member Item End -->
-                <!-- </div> -->
-
-                <!-- <div class="col-lg-3 col-md-6"> -->
-                    <!-- Team Member Item Start -->
-                    <!-- <div class="team-member-item wow fadeInUp" data-wow-delay="1s"> -->
-                        <!-- Team Img Start -->
-                        <!-- <div class="team-image">
-                            <figure>
-                                <?= img("assets/images/team-4.jpg"); ?>
-                            </figure>
-
-                            <div class="our-team-social-icon">
-                                <ul>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                </ul>
-                            </div>
-                        </div> -->
-                        <!-- Team Img End -->
-
-                        <!-- Team Body Start -->
-                        <!-- <div class="team-body">
-                            <div class="team-content">
-                                <h3>Banson Doe</h3>
-                                <p>Sr. Manager</p>
-                            </div>
-                            <div class="team-icon"> 
-                                <a href="#"><img src="assets/images/icon-share.svg" alt=""></a>
-                            </div>
-                        </div> -->
-                        <!-- Team Body End -->
-                    <!-- </div> -->
-                    <!-- Team Member Item End -->
-                <!-- </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Our Team Section End -->
-
-    <!-- clients testimonials Section Start -->
-	<div class="clients-testimonials about-testimonials">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-8 col-md-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">client testimonials</h3>
-                        <h2 class="text-anime-style-3">Our customers love us.</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-				<div class="col-md-12">
-					<!-- Testimonial Slider Start -->
-					<div class="testimonial-slider">
-						<div class="swiper">
-							<div class="swiper-wrapper">
-								<!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <?= img("assets/images/icon-star.svg"); ?>
-                                            
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>"Choosing Savitara Infotel Pvt. Ltd. for our Wordpress project in Toronto was one of our best decisions. Their professionalism ensured a successful project delivery that exceeded our expectations." </p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <!-- <figure class="image-anime">
-                                                <?= img("assets/images/author-1.jpg"); ?>
-                                                
-                                            </figure> -->
-                                            <div class="testimonial-author-title">
-                                                <h2>Michael Davis</h2>
-                                                <p>Toronto, Canada</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-                                
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <?= img("assets/images/icon-star.svg"); ?>
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>"Savitara Infotel Pvt. Ltd. set a new benchmark for Wordpress development in Melbourne, praised by Sarah Brown for their expertise and professionalism, which elevated her brand's online presence."</p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <!-- <figure class="image-anime">
-                                                <?= img("assets/images//author-2.jpg"); ?>
-                                            </figure> -->
-                                            <div class="testimonial-author-title">
-                                                <h2>Sarah Brown</h2>
-                                                <p>Melbourne, Australia</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <?= img("assets/images/icon-star.svg"); ?>
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>"Savitara Infotel Pvt. Ltd. delivered an exceptional custom web solution in Toronto, surpassing industry standards and perfectly aligning with our vision, as praised by Maria Garcia from Toronto, Canada."  </p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <!-- <figure class="image-anime">
-                                                <?= img("assets/images/author-3.jpg"); ?>
-                                            </figure> -->
-                                            <div class="testimonial-author-title">
-                                                <h2>Maria Garcia</h2>
-                                                <p>Toronto, Canada.</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->
-
-                                <!-- Testimonial Slide Start -->
-								<div class="swiper-slide">
-									<div class="testimonial-item">
-										<div class="testimonial-rating">
-                                            <img src="assets/images/icon-star.svg" alt="">
-                                        </div>										
-
-                                        <div class="testimonial-content">
-                                            <p>Savitara Infotel Pvt. Ltd. exceeded my expectations with their Wordpress development in Sydney. The website they created is both stunning and functional, attracting more customers and boosting sales." </p>
-                                        </div>											
-
-                                        <div class="testimonial-body">
-                                            <!-- <figure class="image-anime">
-                                            <?= img("assets/images/author-3.jpg"); ?>
-                                            </figure> -->
-                                            <div class="testimonial-author-title">
-                                                <h2> David Thompson</h2>
-                                                <p>Sydney, Australia.</p>
-                                            </div>										
-                                        </div>													
-									</div>
-								</div>
-								<!-- Testimonial Slide End -->             
-							</div>
-							<div class="swiper-pagination"></div>
-						</div>
-					</div>
-					<!-- Testimonial Slider End -->
-				</div>
-			</div>
-        </div>
-    </div>
-    <!-- clients testimonials Section End -->
+                 </div>
+                 <div class="col-lg-3 ">
+                     <div class="p-3 bg-white radius-20 h-100">
+                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M0 432c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V256H0v176zm192-68c0-6.6 5.4-12 12-12h136c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H204c-6.6 0-12-5.4-12-12v-40zm-128 0c0-6.6 5.4-12 12-12h72c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12H76c-6.6 0-12-5.4-12-12v-40zM576 80v48H0V80c0-26.5 21.5-48 48-48h480c26.5 0 48 21.5 48 48z"></path>
+                         </svg>
+                         <h3>Payment Gateway</h3>
+                         <p>Effortlessly manage transactions with our integrated payment gateway, providing a secure and convenient payment experience for both you and your guests.</p>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 ">
+                     <div class="p-3 bg-white radius-20 h-100">
+                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 288 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z"></path>
+                         </svg>
+                         <h3>Affordable Solution</h3>
+                         <p>Access a cost-effective solution designed to meet your property management needs without breaking the bank, allowing you to maximise your ROI while minimising costs.</p>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 ">
+                     <div class="p-3 bg-white radius-20 h-100">
+                         <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="icon" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M501.1 395.7L384 278.6c-23.1-23.1-57.6-27.6-85.4-13.9L192 158.1V96L64 0 0 64l96 128h62.1l106.6 106.6c-13.6 27.8-9.2 62.3 13.9 85.4l117.1 117.1c14.6 14.6 38.2 14.6 52.7 0l52.7-52.7c14.5-14.6 14.5-38.2 0-52.7zM331.7 225c28.3 0 54.9 11 74.9 31l19.4 19.4c15.8-6.9 30.8-16.5 43.8-29.5 37.1-37.1 49.7-89.3 37.9-136.7-2.2-9-13.5-12.1-20.1-5.5l-74.4 74.4-67.9-11.3L334 98.9l74.4-74.4c6.6-6.6 3.4-17.9-5.7-20.2-47.4-11.7-99.6.9-136.6 37.9-28.5 28.5-41.9 66.1-41.2 103.6l82.1 82.1c8.1-1.9 16.5-2.9 24.7-2.9zm-103.9 82l-56.7-56.7L18.7 402.8c-25 25-25 65.5 0 90.5s65.5 25 90.5 0l123.6-123.6c-7.6-19.9-9.9-41.6-5-62.7zM64 472c-13.2 0-24-10.8-24-24 0-13.3 10.7-24 24-24s24 10.7 24 24c0 13.2-10.7 24-24 24z"></path>
+                         </svg>
+                         <h3>Better Management</h3>
+                         <p>Elevate your property management capabilities with our comprehensive tools and features, enabling you to efficiently manage resources, make informed decisions, and deliver outstanding guest experiences.</p>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <section>
+         <div class="container my-5 py-5">
+             <h2 class="">Our Testimonial</h2>
+             <swiper-container class="mySwiper pt-5" pagination="true" pagination-clickable="true" space-between="30" autoplay="true" autoplay-delay="3000" loop="true">
+                 <swiper-slide class="col-lg-4">
+                     <div class="testimonial-box ">
+                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <h3>David Thompson</h3>
+                         <p>Sydney, Australia.</p>
+                     </div>
+                 </swiper-slide>
+                 <swiper-slide class="col-lg-4">
+                     <div class="testimonial-box ">
+                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <h3>David Thompson</h3>
+                         <p>Sydney, Australia.</p>
+                     </div>
+                 </swiper-slide>
+                 <swiper-slide class="col-lg-4">
+                     <div class="testimonial-box ">
+                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <h3>David Thompson</h3>
+                         <p>Sydney, Australia.</p>
+                     </div>
+                 </swiper-slide>
+                 <swiper-slide class="col-lg-4">
+                     <div class="testimonial-box ">
+                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <h3>David Thompson</h3>
+                         <p>Sydney, Australia.</p>
+                     </div>
+                 </swiper-slide>
+                 <swiper-slide class="col-lg-4">
+                     <div class="testimonial-box s">
+                         <img src="https://www.savitarainfotel.com/assets/images/icon-star.svg" alt="Star Icon">
+                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ad, perspiciatis modi est alias odit quos. Saepe ut architecto culpa, veritatis illo, atque vero impedit, illum aperiam quibusdam amet dicta?</p>
+                         <h3>David Thompson</h3>
+                         <p>Sydney, Australia.</p>
+                     </div>
+                 </swiper-slide>
+                 <!-- Repeat swiper-slide as needed -->
+             </swiper-container>
+         </div>
+     </section>
+ </main>
+ 
+   
 

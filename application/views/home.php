@@ -1,732 +1,624 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
-<!-- Hero Section Start -->
-<div class="hero">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-12">
-                <div class="hero-layout-2">
-                    <!-- Hero Content Start -->
-                    <div class="hero-content">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp">about our Company</h3>
-                            <h1 class="text-anime-style-3">Web Design, SEO & Internet Marketing For <span>Your Business</span></h1>
+<main>
+    <!--================Banner Area =================-->
+    <section class="banner_area bg-image">
+        <div class="container py-5">
+            <div class="row pt-5 px-5 g-3 reverse">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <div class="banner_content  text-md-left">
+                        <h1>All in One Hotel PMS Solutions</h1>
+                        <h3>Savitar PMS</h3>
+                        <div class="typewriter">
+                            <h2 id="typewriter-text">MOTEL MANAGEMENT</h2>
                         </div>
-                        <!-- Section Title End -->
 
-                        <!-- Hero Body Start -->
-                        <div class="hero-body">
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">Immersed in the boundless realms of artistry,
-                                sleek user interfaces, web narratives, and the intricacies of programming, we craft timeless
-                                experiences that resonate deeply with users.</p>
-                        </div>
-                        <!-- Hero Body End -->
-
-                        <!-- Hero Footer Start -->
-                        <div class="hero-footer">
-                            <a href="contact-us" class="btn-default wow fadeInUp" data-wow-delay="0.75s">free consultation</a>
-
-                        </div>
-                        <!-- Hero Footer End -->
+                        <p>Automate hotel operations with Savitar's all-in-one Hotel PMS solution: manage bookings, guest services, billing, and analytics seamlessly on one powerful platform.</p>
+                        <a href="./contact_us.php" class="btn-green">Request a Demo</a>
                     </div>
-                    <!-- Hero Left Content End -->
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 mt-4 mt-md-0">
+                    <div class="video wow fadeInUp" data-wow-delay="0.5s">
+                        <video controls autoplay loop muted class="w-100">
+                            <source src="./assets/video/Savitra PMS_Intro_Final_04.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- Hero Section End -->
+    </section>
 
-<!-- About Section Start -->
-<div class="about-us">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-8">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">about Company</h3>
-                    <h2 class="text-anime-style-3">Websites that tell your brand's story</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
+    <!--================Banner Area =================-->
+    <div id="background" class="container-fluid ">
+        <!--================Reservation Area =================-->
+        <section class="my-5 py-5 ">
+            <div class="container bg-darkblue radius-20 p-5">
+                <div class="row align-items-center ">
+                    <div class="col-md-6  p-3">
+                        <h2 class="wow fadeInUp mb-4 text-white"> More Than a PMS: Streamline with Our Integrated Solution
+                        </h2>
+                        <p class="fs-5  text-white mt-5" data-wow-delay="0.25s">Say goodbye to outdated systems! Our solution is more than just a Hotel PMS—it’s your all-in-one toolkit for effortless hotel and hospitality management. Packed with top-tier features, our platform simplifies everything from reservations to billing and guest services. Streamline your operations and elevate your guest experience with ease
+                        </p>
+                    </div>
+                    <div class="col-md-6 ">
 
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <!-- About Us Image Start -->
-                <div class="about-image">
-                    <div class="about-img">
-                        <figure class="image-anime reveal">
-                            <?= img(['src' => "assets/images/about-us-img.jpg", 'alt' => "Dedicated Team Discussed on Project"]) ?>
-                        </figure>
-                    </div>
-                    <div class="about-consultation">
-                        <figure>
-                            <?= img(['src' => "assets/images/about-circle.png", 'alt' => "Savitara Infotel Logo In Circle"]); ?>
-                        </figure>
-                    </div>
-                </div>
-                <!-- About Us Image End -->
-            </div>
+                        <img src="./assets/video/Comp 2.gif" alt="reservations"
+                            class="img-fluid wow fadeInUp " data-wow-delay="0.5s">
 
-            <div class="col-lg-6">
-                <!-- About Us Content Start -->
-                <div class="about-content">
-                    <p class="wow fadeInUp" data-wow-delay="0.25s">Savitara Infotel was Founded in June 2022 and
-                        headquartered in Ahmedabad Gujarat, in order to help companies with their IT solutions. Our
-                        initial focus was providing complete information technology solutions for companies.</p>
-
-                    <p class="wow fadeInUp" data-wow-delay="0.5s">Savitara Infotels Private limited as a firm envisioned
-                        to provide high quality services and products in the software industry which sets a benchmark
-                        efficiently in software development and other IT services. Savitara Infotels is always looking
-                        for Timeless opportunities for development. Our goal is to use software and cloud services to
-                        make operations simple and economical for organisations and individuals so they can grow.</p>
-
-                    <p class="wow fadeInUp" data-wow-delay="0.75s">We specialise in various IT solutions, including Web
-                        development,mobile application,Digitel Marketing, E-commerce,custom Software With extensive
-                        technical assistance in the broad view of things, our team's core experience has revolutionised
-                        the perspective of your business model.</p>
-
-                    <ul class="wow fadeInUp" data-wow-delay="1s">
-                        <li>Ease of Scalability</li>
-                        <li>Instant Impact</li>
-                        <li>Expertise and Experience</li>
-                        <li>Time Zone Aligned</li>
-                        <li>Full Flexibility</li>
-                        <li>Proactive Support</li>
-                    </ul>
-
-                    <a href="contact-us" class="btn-default wow fadeInUp" data-wow-delay="1.25s">free consultation</a>
-                </div>
-                <!-- About Us Content End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- About Section End -->
-
-<!-- Our Services Section Start -->
-<div class="our-services">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-7 col-md-7">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">our services</h3>
-                    <h2 class="text-anime-style-3">What we can offer today</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-5 col-md-5">
-                <!-- Section Btn Start -->
-                <div class="section-btn">
-                    <a href="services" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
-                </div>
-                <!-- Section Btn End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>web development</h2>
-                            <?= anchor('web-development', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Elevate your online presence with our expertly crafted web development solutions tailored to
-                            your needs.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <?= img(['src' => "assets/images/service-img-1.jpg", 'alt' => "Web Development Developer Desk"]); ?>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Digital Marketing</h2>
-                            <?= anchor('digital-marketing', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Maximize online impact with our targeted digital marketing strategies across various
-                            platforms and channels</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <?= img(['src' => "assets/images/service-img-2.jpg", 'alt' => "Digital Marketing Stratergy Plan"]) ?>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Game Development</h2>
-                            <?= anchor('game-development-services', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Transform ideas into captivating experiences with our expert game development solutions.</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <?= img(['src' => "assets/images/service-img-3.jpg", 'alt' => "Game Developer"]) ?>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>mobile App Development</h2>
-                            <?= anchor('mobile-application-development', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Empower your brand's mobile presence with our streamlined app development solutions,</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                        <img src="assets/images/service-img-4.jpg" alt="Planned Mobile App Development">
-                            
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1.25s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Networking Services</h2>
-                            <?= anchor('networking-services', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Boost your connectivity and efficiency with our comprehensive networking services,</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            <?= img(['src' => "assets/images/service-img-5.jpg", 'alt' => "Networking Services Planning"]) ?>
-                            
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Service Item Start -->
-                <div class="service-item wow fadeInUp" data-wow-delay="1.5s">
-                    <div class="service-content">
-                        <div class="service-content-title">
-                            <h2>Graphics Design</h2>
-                            <?= anchor('graphics-design', img("assets/images/arrow.svg")); ?>
-                        </div>
-                        <p>Transform your vision into stunning visuals with our expert graphic design solutions,</p>
-                    </div>
-                    <div class="service-image">
-                        <figure class="image-anime">
-                            
-                            <?= img(['src' => "assets/images/service-img-6.jpg", 'alt' => "Graphic Designer Design"]) ?>
-                        </figure>
-                    </div>
-                </div>
-                <!-- Service Item End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Our Services Section End -->
-
-
-
-<!-- Why Choose Us Section Start -->
-<div class="why-choose-us">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-8 col-md-12">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">why choose us</h3>
-                    <h2 class="text-anime-style-3">Why choose us ?</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <!-- Why Choose Item Start -->
-                <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
-                    <div class="icon-box">
-                        <?= img("assets/images/icon-whyus-1.svg"); ?>
-                    </div>
-                    <h3>innovation</h3>
-                    <p>Savitara Infotel thrives on innovation, constantly evolving to deliver cutting-edge web
-                        development and digital marketing solutions. Our commitment to creativity drives us to pioneer
-                        new approaches, ensuring our clients stay ahead in the digital,</p>
-                </div>
-                <!-- Why Choose Item End -->
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <!-- Why Choose Item Start -->
-                <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="icon-box">
-                        <?= img("assets/images/icon-whyus-2.svg"); ?>
-                    </div>
-                    <h3>quality-focused</h3>
-                    <p>At Savitara Infotel, we're dedicated to being quality-focused in every aspect of our IT services,
-                        ensuring unparalleled excellence for our clients. Our relentless pursuit of quality sets us
-                        apart, delivering solutions that exceed expectations and drive success,</p>
-                </div>
-                <!-- Why Choose Item End -->
-            </div>
-
-            <div class="col-lg-4">
-                <!-- Why Choose Item Start -->
-                <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
-                    <div class="icon-box">
-                        <?= img("assets/images/icon-whyus-3.svg"); ?>
-                    </div>
-                    <h3>Technical Expertise</h3>
-                    <p>At Savitara Infotel, our foundation is built on technical expertise, empowering us to deliver
-                        top-tier web development and digital marketing solutions. With a team of skilled professionals,
-                        we harness our technical prowess to drive innovation and excellence for our clients,</p>
-                </div>
-                <!-- Why Choose Item End -->
-            </div>
-            <div class="col-md-12 py-5 my-3">
-                <div class="row section-row align-items-center">
-                    <div class="col-lg-12">
-                        <!-- Section Title Start -->
-                        <div class="section-title">
-                            <h3 class="wow fadeInUp"> How we Work</h3>
-                            <h2 class="text-anime-style-3">How it helps <span class="subtitle">your business succeed</span></h2>
-                        </div>
-                        <!-- Section Title End -->
-                    </div>
-                </div>
-                <!-- <div class="title">How it helps <span class="subtitle">your business succeed</span></div> -->
-                <div class="steps text-anime-style-2 ">
-                    <div class="step">
-                        <div class="circle">1</div>
-                        <div class="description">Initial meeting</div>
-                    </div>
-                    <div class="step">
-                        <div class="circle">2</div>
-                        <div class="description">Analysis & Confirmation</div>
-                    </div>
-                    <div class="step">
-                        <div class="circle">3</div>
-                        <div class="description">Development & testing</div>
-                    </div>
-                    <div class="step">
-                        <div class="circle">4</div>
-                        <div class="description">Finalization with client</div>
-                    </div>
-                    <div class="step">
-                        <div class="circle">5</div>
-                        <div class="description">Completion of project</div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="col-md-12 mt-2">
-                <!-- Why Us Explore Item Start -->
-                <div class="why-us-explore-item">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="why-us-section-title">
-                                <!-- Section Title Start -->
-                                <div class="section-title">
-                                    <h2 class="text-anime-style-3">Do you want to explore our outstanding work?</h2>
-                                </div>
-                                <!-- Section Title End -->
-
-                                <!-- Explore Item Icon Start -->
-                                <div class="explore-item-icon">
-                                    <?= img("assets/images/icon-whyus-4.svg"); ?>
-                                </div>
-                                <!-- Explore Item Icon End -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row align-items-center">
-                        <div class="col-lg-6">
-                            <!-- Explore Item Content Start -->
-                            <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                <p>At Savitara Infotel, our exceptional work reflects our unwavering commitment to
-                                    excellence in IT services. With a focus on quality and innovation, we leverage our
-                                    technical expertise to deliver unparalleled solutions. Each project is approached
-                                    with meticulous attention to detail, ensuring client satisfaction and success. Our
-                                    dedication to staying at the forefront of industry trends drives us to consistently
-                                    surpass expectations.</p>
-                            </div>
-                            <!-- Explore Item Content End -->
-                        </div>
-
-                        <div class="col-lg-6">
-                            <!-- Explore Item Content Start -->
-                            <div class="explore-item-tags wow fadeInUp" data-wow-delay="0.25s">
-                                <ul>
-                                    <li><a href="https://wa.link/172iwv" class="btn-default">Whatsapp</a></li>
-                                    <li><a href="https://www.linkedin.com/company/savitara-infotel-pvt-ltd/" class="btn-default">linkedin</a></li>
-                                    <li><?= anchor('contact-us', 'Contact Us', 'class="btn-default"'); ?></li>
-                                </ul>
-                            </div>
-                            <!-- Explore Item Content End -->
-                        </div>
-                    </div>
-                </div>
-                <!-- Why Us Explore Item End -->
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Why Choose Us Section End -->
-
-<!-- Exclusive Partners Section Start -->
-<div class="exclusive-partners">
-    <div class="container">
-        <div class="row section-row align-items-center">
-            <div class="col-lg-12">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp"> Exploring Technology </h3>
-                    <h2 class="text-anime-style-3">20+ Technology We Work</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <!-- Sidebar Our Projects Nav start -->
-                <div class="our-projects-nav wow fadeInUp" data-wow-delay="0.25s">
-                    <ul>
-                        <li><a href="#" class="active-btn" data-filter=".*">All</a></li>
-                        <li><a href="#" data-filter=".mobile">Mobile</a></li>
-                        <li><a href="#" data-filter=".website">Web</a></li>
-                        <li><a href="#" data-filter=".digital">Digital</a></li>
-                        <li><a href="#" data-filter=".graphics">Graphics</a></li>
+        <!--================Reservation Area =================-->
+        <!--================Tab-content Area =================-->
+        <section>
+            <div class="container">
+                <div class="scrollmenu">
+                    <ul class="nav nav-tabs nav-fill  " role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link active" id="fill-tab-0" data-bs-toggle="tab" href="#fill-tabpanel-0"
+                                role="tab" aria-controls="fill-tabpanel-0" aria-selected="true">Guest Experience</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="fill-tab-1" data-bs-toggle="tab" href="#fill-tabpanel-1"
+                                role="tab" aria-controls="fill-tabpanel-1" aria-selected="false">Revenue and Analytics</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="fill-tab-2" data-bs-toggle="tab" href="#fill-tabpanel-2"
+                                role="tab" aria-controls="fill-tabpanel-2" aria-selected="false">Reputation Management</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link" id="fill-tab-3" data-bs-toggle="tab" href="#fill-tabpanel-3"
+                                role="tab" aria-controls="fill-tabpanel-3" aria-selected="false">Distribution and Marketing</a>
+                        </li>
                     </ul>
                 </div>
-                <!-- Sidebar Our Projects Nav End -->
-            </div>
-            <div class="col-lg-12">
-                <!-- Project Item Box start -->
-                <div class="row project-item-boxes">
-                    <div class="col-lg-3 col-6 mx-auto project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="0.2s">
-                            <?= img(['src'=>"assets/images/anroid.svg",'alt'=>"Android Logo"]) ?>
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="0.4s">
-                        <?= img(['src'=>"assets/images/ios.svg",'alt'=>"ios Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="0.6s">
-                        <?= img(['src'=>"assets/images/xamarin.svg",'alt'=>"xamarin Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="0.8s">
-                        <?= img(['src'=>"assets/images/flutter.svg",'alt'=>"flutter Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1s">
-                        <?= img(['src'=>"assets/images/swift.svg",'alt'=>"swift Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.2s">
-                        <?= img(['src'=>"assets/images/ionic.svg",'alt'=>"ionic Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.4s">
-                        <?= img(['src'=>"assets/images/java.svg",'alt'=>"java Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box mobile">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/react native.svg",'alt'=>"react native Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/react.svg",'alt'=>"react Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/node.svg",'alt'=>"node Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/php.svg",'alt'=>"php Logo"]) ?>
-                            <?= img(""); ?>
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/laravel.svg",'alt'=>"laravel Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/next js.svg",'alt'=>"next js Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/vue js.svg",'alt'=>"vue js Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/angular.svg",'alt'=>"angular Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/javascript.svg",'alt'=>"javascript Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box website">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/python.svg",'alt'=>"python Logo"]) ?>
-                          
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box digital">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/seo.svg",'alt'=>"seo Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box digital">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/content.svg",'alt'=>"content Logo"]) ?>
-                          
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box digital">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/social media.svg",'alt'=>"social media Logo"]) ?>
-                            
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-
-                    <div class="col-lg-3 col-6 project-item-box graphics">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/adobe.svg",'alt'=>"adobe Logo"]) ?>
-                        
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box graphics">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/illustrator.svg",'alt'=>"illustrator Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                    <div class="col-lg-3 col-6 project-item-box graphics">
-                        <!-- Partners Logo Start -->
-                        <div class="partners-logo wow fadeInUp" data-wow-delay="1.6s">
-                        <?= img(['src'=>"assets/images/photoshop.svg",'alt'=>"photoshop Logo"]) ?>
-                           
-                        </div>
-                        <!-- Partners Logo End -->
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>
-<!-- Exclusive Partners Section End -->
 
 
-
-
-
-<!-- Latest News Section Start -->
-<div class="latest-news">
-    <div class="container">
-        <div class="row section-row align-items-center">
-
-            <div class="col-lg-6 col-md-8">
-                <!-- Section Title Start -->
-                <div class="section-title">
-                    <h3 class="wow fadeInUp">Latest Blog & Articles</h3>
-                    <h2 class="text-anime-style-3">The latest insights you need to know</h2>
-                </div>
-                <!-- Section Title End -->
-            </div>
-
-            <div class="col-lg-6 col-md-4">
-                <!-- Section Btn Start -->
-                <div class="section-btn wow fadeInUp" data-wow-delay="0.25s">
-                    <a href="blogs" class="btn-default">view all articles</a>
-                </div>
-                <!-- Section Btn End -->
-            </div>
-        </div>
-        <div class="row">
-            <?php if (!empty($blogs)) : foreach ($blogs as $blog) : ?>
-                    <div class="col-lg-4 col-md-6">
-                        <!-- Blog Item Start -->
-                        <div class="blog-item wow fadeInUp" data-wow-delay="0.25s" style="visibility: visible; animation-delay: 0.25s; animation-name: fadeInUp;">
-                            <!-- Blog Image Start -->
-                            <div class="post-featured-image">
-                                <figure class="image-anime">
-                                    <?php if (is_file($this->path . $blog['image'])) : ?>
-                                        <?= anchor($blog['page_name'], img($this->path . $blog['image'])) ?>
-                                    <?php endif ?>
-                                </figure>
+                <div class="tab-content pt-5" id="tab-content">
+                    <!-- Tab 1 -->
+                    <div class="tab-pane active" id="fill-tabpanel-0" role="tabpanel" aria-labelledby="fill-tab-0">
+                        <div class="row">
+                            <div class="col-12 bg-darkblue radius-20 p-5">
+                                <h2 class="text-white">Streamline operations and automate workflows</h2>
                             </div>
-                            <!-- Blog Image End -->
-                            <!-- Blog Content Start -->
-                            <div class="post-item-body">
+                        </div>
+                        <div class="row mt-5 justify-content-between">
+                            <div class="col-lg-4 col-md-12 bg-darkblue radius-20 accordian-section">
+                                <div class="accordion" id="accordionExample0">
+                                    <div class="accordion-item">
+
+                                        <h2 class="accordion-header " id="headingOne0">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-tab-image="dynamicImageTab1"
+                                                data-change-image="./assets/images/simplified_process.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-target="#collapseOne0"
+                                                aria-expanded="true" aria-controls="collapseOne0">
+                                                Simplified Processes
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne0" class="accordion-collapse collapse "
+                                            aria-labelledby="headingOne0" data-bs-parent="#accordionExample0">
+                                            <div class="accordion-body">
+                                                <strong>Streamline hotel operations with our PMS. Simplified processes ensure smooth workflows, from check-ins to housekeeping, enhancing efficiency and guest satisfaction.</strong>
+
+                                            </div>
+                                            <img
+                                                src="./assets/images/simplified_process.jpg"
+                                                alt="simplified_process" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item radius-20">
+                                        <h2 class="accordion-header" id="headingTwo0">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo0"
+                                                data-tab-image="dynamicImageTab1"
+                                                data-change-image="./assets/images/custom_payment_option.jpg"
+                                                onclick="handleChangeImage(event)" aria-expanded="false"
+                                                aria-controls="collapseTwo0">
+                                                Custom Payment Options
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo0" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo0" data-bs-parent="#accordionExample0">
+                                            <div class="accordion-body">
+                                                <strong>Offer guests flexibility with custom payment options. Savitar PMS supports various methods, making transactions easy and seamless for both your hotel and your guests</strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/custom_payment_option.jpg"
+                                                alt="custom payment option" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree0">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree0"
+                                                data-tab-image="dynamicImageTab1"
+                                                data-change-image="./assets/images/affortless_booking.jpg"
+                                                onclick="handleChangeImage(event)" aria-expanded="false"
+                                                aria-controls="collapseThree0">
+                                                Effortless Booking
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree0" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree0" data-bs-parent="#accordionExample0">
+                                            <div class="accordion-body">
+                                                <strong>Experience effortless booking with our PMS. Streamlined reservation systems simplify the process, reducing booking time and enhancing guest convenience and satisfaction.</strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/affortless_booking.jpg"
+                                                alt="affortless booking" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8  radius-20 mx-right">
+                                <img id="dynamicImageTab1"
+                                    src="./assets/images/simplified_process.jpg"
+                                    alt="simplified_process" class="img-fluid image-block">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 2 -->
+                    <div class="tab-pane" id="fill-tabpanel-1" role="tabpanel" aria-labelledby="fill-tab-1">
+                        <div class="row">
+                            <div class="col-12 bg-darkblue radius-20 p-5 ">
+                                <h2 class="text-white">Streamline operations and automate workflows</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-between ">
+                            <div class="col-lg-4 col-md-12 bg-darkblue radius-20 accordian-section">
+                                <div class="accordion " id="accordionExample1">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header " id="headingOne1">
+                                            <button class="accordion-button collapsed " type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne1"
+                                                data-tab-image="dynamicImageTab2"
+                                                data-change-image="./assets/images/Insightful Analytics.jpg"
+                                                onclick="handleChangeImage(event)" aria-expanded="true"
+                                                aria-controls="collapseOne1">
+                                                Insightful Analytics
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne1" class="accordion-collapse collapse "
+                                            aria-labelledby="headingOne1" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <strong>Savitar PMS offers Analytics and Insights. Which Identify revenue trends, guest behavior, and operational performance to make more informed decisions. Real-time data allows you to react quickly to market changes. In this way, you can optimize pricing, increase guest satisfaction, and streamline operations.
+                                                </strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Insightful Analytics.jpg"
+                                                alt="insightful analytics" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item radius-20">
+                                        <h2 class="accordion-header" id="headingTwo1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab2"
+                                                data-change-image="./assets/images/Quick Financial Sorting.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo1" aria-expanded="false"
+                                                aria-controls="collapseTwo1">
+                                                Quick Financial Sorting
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo1" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo1" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <strong>Our advanced Property Management System (PMS) makes financial tracking easy. Profits, losses, and expenses can be easily filtered and analyzed with simple quick sorting tools. With Savitar PMS, you can confidently track and manage your Hotel's financial performance, optimizing your productivity and improving your overall success.</strong>
+                                            </div>
+                                            <img src="./assets/images/Quick Financial Sorting.jpg" alt="Quick Financial Sorting" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree1">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab2"
+                                                data-change-image="./assets/images/Detailed Account Reports.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree1" aria-expanded="false"
+                                                aria-controls="collapseThree1">
+                                                Detailed Account Reports
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree1" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree1" data-bs-parent="#accordionExample1">
+                                            <div class="accordion-body">
+                                                <strong>Get in-depth account reports with our PMS. Detailed financial summaries and performance metrics provide clear visibility into your hotel's financial health and trends.</strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Detailed Account Reports.jpg"
+                                                alt="Detailed Account Reports" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 radius-20 mx-right image-block">
+                                <img id="dynamicImageTab2"
+                                    src="./assets/images/Insightful Analytics.jpg"
+                                    alt="" srcset="" class="img-fluid image-block">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 3 -->
+                    <div class="tab-pane" id="fill-tabpanel-2" role="tabpanel" aria-labelledby="fill-tab-2">
+                        <div class="row">
+                            <div class="col-12 bg-darkblue radius-20 p-5 ">
+                                <h2 class="text-white">Streamline operations and automate workflows</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-between ">
+                            <div class="col-lg-4 col-md-12 bg-darkblue radius-20 accordian-section">
+                                <div class="accordion " id="accordionExample2">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header " id="headingOne2">
+                                            <button class="accordion-button collapsed " type="button"
+                                                data-tab-image="dynamicImageTab3"
+                                                data-change-image="./assets/images/Customer Review Handling.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne2" aria-expanded="true"
+                                                aria-controls="collapseOne2">
+                                                Customer Review Handling
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne2" class="accordion-collapse collapse "
+                                            aria-labelledby="headingOne2" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <strong>Manage your customers' reviews easily. In Savitar PMS, you can track and respond to guest feedback, improving your hotel's reputation and guest experience.
+                                                </strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Customer Review Handling.jpg"
+                                                alt="Customer Review Handling" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item radius-20">
+                                        <h2 class="accordion-header" id="headingTwo2">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab3"
+                                                data-change-image="./assets/images/Email Marketing.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo2" aria-expanded="false"
+                                                aria-controls="collapseTwo2">
+                                                Email Marketing
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo2" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo2" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <strong>Boost your Email marketing efforts with Savitar PMS. You will be able to manage effective campaigns using our PMS to increase engagement, attract guests, and improve the visibility of your hotel.</strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Email Marketing.jpg"
+                                                alt="Email Marketing" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab3"
+                                                data-change-image="./assets/images/Guest Satisfaction Accelerator.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree2" aria-expanded="false"
+                                                aria-controls="collapseThree2">
+                                                Guest Satisfaction Accelerator
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree2" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree2" data-bs-parent="#accordionExample2">
+                                            <div class="accordion-body">
+                                                <strong>Get a better guest experience with our Property Management System. Our streamlined tools and insights will help you enhance the guest experience, address concerns in a timely manner, and build positive reviews for your property.
+                                                </strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Guest Satisfaction Accelerator.jpg"
+                                                alt="Guest Satisfaction Accelerator" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 radius-20 mx-right ">
+                                <img id="dynamicImageTab3"
+                                    src="./assets/images/Customer Review Handling.jpg"
+                                    alt="" srcset="" class="img-fluid image-block">
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tab 4 -->
+                    <div class="tab-pane" id="fill-tabpanel-3" role="tabpanel" aria-labelledby="fill-tab-3">
+                        <div class="row">
+                            <div class="col-12 bg-darkblue radius-20 p-5 ">
+                                <h2 class="text-white">Streamline operations and automate workflows</h2>
+                            </div>
+                        </div>
+                        <div class="row mt-5 justify-content-between ">
+                            <div class="col-lg-4 col-md-12 bg-darkblue radius-20 accordian-section">
+                                <div class="accordion " id="accordionExample3">
+                                    <div class="accordion-item ">
+                                        <h2 class="accordion-header " id="headingOne3">
+                                            <button class="accordion-button collapsed " type="button"
+                                                data-tab-image="dynamicImageTab4"
+                                                data-change-image="./assets/images/Streamline chanel control.jpg"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne3" aria-expanded="true"
+                                                aria-controls="collapseOne3">
+                                                Streamlined Channel Control
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne3" class="accordion-collapse collapse "
+                                            aria-labelledby="headingOne3" data-bs-parent="#accordionExample3">
+                                            <div class="accordion-body">
+                                                <strong> In order to ensure efficient room inventory management and order optimization in your hotel, our PMS offers centralized control over all your distribution channels on one platform.
+                                                </strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/Streamline chanel control.jpg"
+                                                alt="Streamlined Channel Control" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item radius-20">
+                                        <h2 class="accordion-header" id="headingTwo3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab4"
+                                                data-change-image="./assets/images/digital promoction.png"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseTwo3" aria-expanded="false"
+                                                aria-controls="collapseTwo3">
+                                                Digital Promotion
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo3" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo3" data-bs-parent="#accordionExample3">
+                                            <div class="accordion-body">
+                                                <strong>At Savitar PMS, we offer top-tier online promotion strategies to elevate your brand awareness. Our experienced team is dedicated to developing and optimizing your digital marketing strategy to ensure your hotel's success.</strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/digital promoction.png"
+                                                alt="Digital Promotion" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree3">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-tab-image="dynamicImageTab4"
+                                                data-change-image="./assets/images/build your website.png"
+                                                onclick="handleChangeImage(event)" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree3" aria-expanded="false"
+                                                aria-controls="collapseThree3">
+                                                Build Your Website
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree3" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree3" data-bs-parent="#accordionExample3">
+                                            <div class="accordion-body">
+                                                <strong>A standout business website is crucial for brand awareness. Savitar PMS creates user-friendly, SEO-optimized websites customized specifically for your hotel or motel. Let us help you make a lasting impression online and attract more guests.
+                                                </strong>
+                                            </div>
+                                            <img
+                                                src="./assets/images/build your website.png"
+                                                alt="Build Your Website" srcset="" class="img-fluid p-2">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 radius-20 mx-right ">
+                                <img id="dynamicImageTab4"
+                                    src="./assets/images/Streamline chanel control.jpg"
+                                    alt="" srcset="" class="img-fluid image-block">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--================Tab-content Area =================-->
+        <!--================ Area =================-->
+        <section>
+            <div class="container pb-5">
+                <div class="row mt-5">
+                    <div class="col">
+                        <h2 class="text-white">Get rid of your tech hotel PMS platform</h2>
+                    </div>
+                </div>
+                <div class="row mt-3 p-5 bg-darkblue radius-20 ">
+                    <div class="col-lg-6 col-md-6 col-sm-12  ">
+                        <h2 class="text-white">Get rid of your tech hotel </h2>
+                        <p class="text-white">Automate your hotel operations by replacing your outdated PMS with our all-in-one solution. Simplify management, improve efficiency, and enhance guest satisfaction easily.
+                        </p>
+                        <a href="./contact_us.php" class="btn-transparent">Add Call to Action</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12  text-white" style="padding-left: 8%;">
+                        <ul class="fs-4">
+                            <li>
+                                Access Management
+                            </li>
+                            <li>Revenue Management</li>
+                            <li>Point of Sale</li>
+                            <li>CRS & Channel Managers</li>
+                            <li>Accounting Systems</li>
+                            <li>Government Compliance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="radius-20 p-5 h-100" style="background-color: #042a49;">
+                            <h2 class="text-white mt-2">An Add Ons Extend The Platforms’ Capabilities </h2>
+                            <p class="text-white">Boost Savitar PMS with our add-ons to extend its capabilities. Customize features, integrate enhanced services, and tailor the platform to meet your hotel's unique needs.
+                            </p>
+                            <a href="./contact_us.php" class="btn-transparent">Explore market place</a>
+                            <img src="./assets/images/add ons.png" alt="add ons" class="img-fluid">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 ">
+                        <div class="bg-white radius-20 p-5 h-100">
+                            <h2 class="mt-2">Distribution According to Your Preferences
+                            </h2>
+                            <p class="">Boost your hotel’s visibility with effortless access to 300+ OTAs. Connect effortlessly and attract more guests with our extensive booking network.
+                            </p>
+                            <a href="./contact_us.php" class="btn-green">Explore market place</a>
+                            <img src="./assets/images/Distribution.gif" alt="distribution" class="img-fluid">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row bg-darkblue radius-20 mt-3 p-4">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h2 class="text-white">We protect your data </h2>
+                        <p class="text-white">We are GDPR and PCI DSS compliant, SSL certified and more, so you can
+                            operate confidently knowing that your data is secured.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-center align-content-center">
+                        <img src="./assets/images/banner-logos.svg"
+                            alt="banner-logos" srcset="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--================ Area =================-->
+    </div>
+    <!--================Blog Area =================-->
+    <section>
+        <div class="container">
+            <div class="row g-5 my-5 pb-5">
+                <h2>
+                    Latest Blogs
+                </h2>
+                <?php
+                if (!empty($blogs)): ?>
+                    <?php foreach ($blogs as $blog): ?>
+                        <div class="col-lg-4">
+                            <div class="blog-item radius-20 overflow-hidden h-100">
+                                <div class="blog-img position-relative overflow-hidden">
+                                    <?= img($this->path.$blog['image'], '', 'class="img-fluid"'); ?>
+                                </div>
+                                <div class="p-4">
+                                    <div class="d-flex mb-3">
+                                        <small class="textdark"><i class="far fa-calendar-alt me-2"></i><?php echo date("d M, Y", strtotime($blog['posted_on'])); ?></small>
+                                    </div>
+                                    <h4 class="mb-3">
+                                        <?php echo $blog['b_title']; ?>
+                                    </h4>
+                                    <p>
+                                        <?php echo substr($blog['b_description'], 0, 150); ?>...
+                                    </p>
+                                    <?= anchor($blog['page_name'], 'Read More <i class="bi bi-arrow-right"></i>', 'class="text-uppercase text-dark"') ?>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <p>No blog posts available.</p>
+                <?php endif; ?>
+
+                <!-- <div class="col-lg-4 ">
+                        <div class="blog-item  radius-20 overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid"
+                                    src="https://cloudbeds-fcfc.kxcdn.com/wp-content/uploads/2024/02/blog_header_CRM.webp"
+                                    alt="blogimage1">
+
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+
+                                    <small class="textdark"><i class="far fa-calendar-alt  me-2"></i>01
+                                        Jan, 2045</small>
+                                </div>
+                                <h4 class="mb-3">
+                                    AI and ESG – A twisted tale or made for each other
+                                </h4>
                                 <p>
-                                    <?= anchor($blog['page_name'], date('M d, Y', strtotime($blog['posted_on']))) ?>
+                                    AI will enable better ESG but will more AI lead to better ESG
+                                    outcomes? This is a very interesting interplay of two hottest
+                                    areas of debate globally.
                                 </p>
-                                <h2>
-                                    <?= anchor($blog['page_name'], $blog['b_title']) ?>
-                                </h2>
+                                <a href="./detail.html" class="text-uppercase textdark">Read More <i
+                                        class="bi bi-arrow-right"></i></a>
                             </div>
-                            <!-- Blog Content End -->
                         </div>
-                        <!-- Blog Item End -->
                     </div>
-                <?php endforeach; ?>
-            <?php endif ?>
-        </div>
-    </div>
-</div>
+                    <div class="col-lg-4">
+                        <div class="blog-item radius-20 overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid"
+                                    src="https://cloudbeds-fcfc.kxcdn.com/wp-content/uploads/2024/02/blog_header_CRM.webp"
+                                    alt="blogimage2">
 
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
 
-<!-- Latest News Section End -->
-<!-- Industries Section Start -->
-<div class="container ">
-    <div class="row section-row align-items-center">
-        <div class="col-lg-12">
-            <!-- Section Title Start -->
-            <div class="section-title">
-                <h3 class="wow fadeInUp"> Industries</h3>
-                <h2 class="text-anime-style-3">Tailored IT solutions for a variety of industries.</h2>
+                                    <small class="textdark"><i class="far fa-calendar-alt  me-2"></i>01
+                                        Jan, 2045</small>
+                                </div>
+                                <h4 class="mb-3">
+                                    AI and ESG – A twisted tale or made for each other
+                                </h4>
+                                <p>
+                                    AI will enable better ESG but will more AI lead to better ESG
+                                    outcomes? This is a very interesting interplay of two hottest
+                                    areas of debate globally.
+                                </p>
+                                <a class="text-uppercase textdark" href="./detail.html">Read More <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="blog-item  radius-20 overflow-hidden">
+                            <div class="blog-img position-relative overflow-hidden">
+                                <img class="img-fluid"
+                                    src="https://cloudbeds-fcfc.kxcdn.com/wp-content/uploads/2024/02/blog_header_CRM.webp"
+                                    alt="blogimage3">
+
+                            </div>
+                            <div class="p-4">
+                                <div class="d-flex mb-3">
+
+                                    <small class="textdark"><i class="far fa-calendar-alt  me-2"></i>01
+                                        Jan, 2045</small>
+                                </div>
+                                <h4 class="mb-3">
+                                    AI and ESG – A twisted tale or made for each other
+                                </h4>
+                                <p>
+                                    AI will enable better ESG but will more AI lead to better ESG
+                                    outcomes? This is a very interesting interplay of two hottest
+                                    areas of debate globally.
+                                </p>
+                                <a class="text-uppercase textdark" href="./detail.html">Read More <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div> -->
             </div>
-            <!-- Section Title End -->
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="scrolling-ticker ">
-    <div class="scrolling-ticker-box">
-        <div class="scrolling-content">
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Retail</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>E-commerce</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Finance</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Healthcare</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Logistic</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Travel</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Education</span>
-        </div>
 
-        <div class="scrolling-content">
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Retail</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>E-commerce</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Finance</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Healthcare</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Logistic</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Travel</span>
-            <span class="mx-5"><i class="fa-solid fa-circle"></i>Education</span>
-        </div>
+    <!--================Blog Area =================-->
 
-    </div>
-</div>
-<!-- Industries Section End -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/665db6e8981b6c564777f740/1hvf14vv4';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+
+</main>

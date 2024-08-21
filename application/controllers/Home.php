@@ -15,18 +15,6 @@ class Home extends Public_Controller
         $data['breadcumb'] = 'About Us';
         return $this->template->load('template', 'pages/about', $data);
     }
-    
-    public function career()
-    {
-        $data['breadcumb'] = 'Careers';
-		return $this->template->load('template', 'pages/career', $data);
-    }
-
-    public function apply()
-    {
-        $data['breadcumb'] = 'apply';
-		return $this->template->load('template', 'pages/apply', $data);
-    }
 
     public function contact()
     {
@@ -44,16 +32,4 @@ class Home extends Public_Controller
         $data['breadcumb'] = 'Terms of Service';
 		return $this->template->load('template', 'pages/termsofservice', $data);
     }
-    
-    public function software_development_technology()
-    {
-        $data['breadcumb'] = 'Technologies';
-		return $this->template->load('template', 'pages/software-development-technology', $data);
-    }
-
-    public function team()
-    {
-        $data['breadcumb'] = 'Team Savitara Infotel';
-		return $this->template->load('template', 'pages/team', $data);
-    }    
 }
