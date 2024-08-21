@@ -18,9 +18,6 @@
                 <li class="nav-item">
                     <?= anchor(admin('seo'), '<i class="nav-icon fas fa-globe"></i> <p>SEO</p>', 'class="nav-link '.active_navigation($name, 'seo').'"'); ?>
                 </li>
-                <li class="nav-item">
-                    <?= anchor(admin('employees'), '<i class="nav-icon fas fa-users"></i> <p>Employees</p>', 'class="nav-link '.active_navigation($name, 'employees').'"'); ?>
-                </li>
                 <li class="nav-item <?= active_navigation($name, ['categories', 'blogs'], true) ?>">
                     <a href="javascript:;" class="nav-link <?= active_navigation($name, ['categories', 'blogs']) ?>">
                         <i class="nav-icon fas fa-edit"></i>
@@ -40,9 +37,6 @@
                 </li>
                 <li class="nav-item">
                     <?= anchor(admin('inquiries'), '<i class="nav-icon fas fa-users"></i> <p>Inquiries</p>', 'class="nav-link '.active_navigation($name, 'inquiries').'"'); ?>
-                </li>
-                <li class="nav-item">
-                    <?= anchor(admin('careers'), '<i class="nav-icon fas fa-users"></i> <p>Careers</p>', 'class="nav-link '.active_navigation($name, 'careers').'"'); ?>
                 </li>
                 <li class="nav-item">
                     <?= anchor(admin('subscriptions'), '<i class="nav-icon fas fa-users"></i> <p>Subscriptions</p>', 'class="nav-link '.active_navigation($name, 'subscriptions').'"'); ?>

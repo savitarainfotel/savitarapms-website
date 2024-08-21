@@ -70,7 +70,7 @@ class Inquiries extends Admin_Controller  {
         $data['operation'] = "View";
         $data['url'] = $this->redirect;
 
-        $data['data'] = $this->main->get($this->table, 'name, email, phone_number, msg_subject, message, created_at', ['id' => $id, 'is_deleted' => 0, 'domain_id' => $this->domain['id']]);
+        $data['data'] = $this->main->get($this->table, 'name, email, phone_number, property_name, country, city, message, created_at', ['id' => $id, 'is_deleted' => 0, 'domain_id' => $this->domain['id']]);
 
         if(!$data['data']) {
             flashMsg(0, "", "$this->title not found.", $this->redirect);

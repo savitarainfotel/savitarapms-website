@@ -36,7 +36,7 @@
         </div>
         <div class="col-md-6">
             <div class="form-group">
-                <?= form_label('Created AT', 'phone_number') ?>
+                <?= form_label('Created AT', 'created_at') ?>
                 <?= form_input([
                     'class' => "form-control",
                     'disabled' => "disabled",
@@ -44,13 +44,33 @@
                 ]); ?>
             </div>
         </div>
-        <div class="col-md-12">
+        <div class="col-md-6">
             <div class="form-group">
-                <?= form_label('Subject', 'msg_subject') ?>
+                <?= form_label('Country', 'country') ?>
                 <?= form_input([
                     'class' => "form-control",
                     'disabled' => "disabled",
-                    'value' => isset($data['msg_subject']) ? $data['msg_subject'] : ''
+                    'value' => isset($data['country']) ? $data['country'] : ''
+                ]); ?>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <?= form_label('City', 'city') ?>
+                <?= form_input([
+                    'class' => "form-control",
+                    'disabled' => "disabled",
+                    'value' => isset($data['city']) ? $data['city'] : ''
+                ]); ?>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+                <?= form_label('Property Name', 'property_name') ?>
+                <?= form_input([
+                    'class' => "form-control",
+                    'disabled' => "disabled",
+                    'value' => isset($data['property_name']) ? $data['property_name'] : ''
                 ]); ?>
             </div>
         </div>

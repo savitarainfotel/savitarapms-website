@@ -32,49 +32,18 @@ class Api extends Public_Controller
                 'name'          => $this->input->post('first_name').' '.$this->input->post('last_name'),
                 'email'         => $this->input->post('email'),
                 'phone_number'  => $this->input->post('phone_number'),
-                'msg_subject'   => $this->input->post('msg_subject'),
+                'property_name' => $this->input->post('property_name'),
+                'country'       => $this->input->post('country'),
+                'city'          => $this->input->post('city'),
                 'message'       => $this->input->post('message'),
                 'domain_id'     => $this->domain['id'],
                 'created_at'    => date('Y-m-d H:i:s')
             ];
 
             $u_id = $this->main->add($post, "contact_us");
-
-            // if($u_id) {
-            //     $this->load->library('appmails');
-            //     $this->appmails->contact($this->input->post());
-            // }
-
+            sleep(1);
             responseMsg($u_id, "Thank you for contacting us. We will get back to you soon.", "Some error occured. Try again.");
         } else 
-            return $this->error_404();
-    }
-
-    public function apply()
-    {
-        if(!empty($this->input->post()) && $this->input->is_ajax_request()) {
-            $this->path = $this->config->item('resumes');
-            $resume = $this->uploadImage('uploadFile', 'pdf');
-
-            if($resume['error']) {
-                responseMsg(false, '', $resume['message']);
-            } else {
-                $post = [
-                    'name'          => $this->input->post('name'),
-                    'email'         => $this->input->post('email'),
-                    'phone'         => $this->input->post('phone'),
-                    'designation'   => $this->input->post('designation'),
-                    'message'       => $this->input->post('message'),
-                    'resume'        => $resume['message'],
-                    'domain_id'     => $this->domain['id'],
-                    'created_at'    => date('Y-m-d H:i:s')
-                ];
-
-                $u_id = $this->main->add($post, "careers");
-    
-                responseMsg($u_id, "Thank you for apply. We will get back to you soon.", "Some error occured. Try again.");
-            }
-        } else
             return $this->error_404();
     }
 

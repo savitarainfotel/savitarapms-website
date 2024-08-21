@@ -188,10 +188,13 @@
                                 <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
                             <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fab fa-telegram-plane"></i></button>
-                                </form>
+                                <?= form_open('subscribe', 'class="ajax-form"'); ?>
+                                    <div class="col-12 error-message"></div>
+                                    <div class="input-group">
+                                        <input type="text" name="email" placeholder="Email Address" />
+                                        <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                                    </div>
+                                <?= form_close(); ?>
                             </div>
                         </div>
                     </div>
@@ -236,6 +239,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+
     <?= script("assets/js/custom.js" . ASSET_VERSION); ?>
 </body>
 
