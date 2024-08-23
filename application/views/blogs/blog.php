@@ -13,7 +13,7 @@
                 <?php endif ?>
                 <div class="card-body p-5">
                     <p><?php echo date("F d Y", strtotime($blog['posted_on'])); ?></p>
-                    <p class="fs-5 mt-4"><?php echo $blog['b_description']; ?></p>
+                    <p class=" mt-4"><?php echo $blog['b_description']; ?></p>
                 </div>
             </div>
         </div>

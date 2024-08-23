@@ -5,7 +5,7 @@
             <div class="row align-items-center align-items-center py-4 ">
                 <div class="col-lg-6 p-5">
                     <h1 class="text-white">Savitar CRS Integration: Elevate Your Hotel's Central Reservation System</h1>
-                    <p class="text-justify text-white fs-5">Discover the power of Savitar CRS Integration and transform your hotel's central reservation system. Enhance efficiency, streamline operations, and provide an exceptional guest experience. Our cutting-edge technology seamlessly connects with your existing infrastructure, offering robust features and real-time data synchronization. Stay ahead in the competitive hospitality industry with our user-friendly and customizable solutions designed to boost your revenue and optimize resource management.
+                    <p class="text-justify text-white ">Discover the power of Savitar CRS Integration and transform your hotel's central reservation system. Enhance efficiency, streamline operations, and provide an exceptional guest experience. Our cutting-edge technology seamlessly connects with your existing infrastructure, offering robust features and real-time data synchronization. Stay ahead in the competitive hospitality industry with our user-friendly and customizable solutions designed to boost your revenue and optimize resource management.
                     </p>
                 </div>
                 <div class="col-lg-6 ">

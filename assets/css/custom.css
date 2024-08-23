@@ -1,16 +1,4 @@
-@font-face {
-  font-display: block;
-  font-family: "FontAwesome";
-  src: url(./fonts/fontawesome-webfont.eot);
-  src: url("./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
-      format("embedded-opentype"),
-    url(./fonts/fontawesome-webfont.woff2) format("woff2"),
-    url(./fonts/fontawesome-webfont.woff) format("woff"),
-    url(./fonts/fontawesome-webfont.ttf) format("truetype"),
-    url("./fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
-  font-weight: 400;
-  font-style: normal;
-}
+
 :root {
   --primary-color: #15161b;
   --secondary-color: #f7f8fd;
@@ -29,30 +17,37 @@ body {
   padding: 0;
   box-sizing: border-box;
   background-color: #eaeaea !important;
+  font-family: 'Roboto', sans-serif;
 }
 main {
   margin-top: 100px;
 }
+h1,h2,h3{
+  font-weight: 600;
+  color: #126cb5;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+}
 h1 {
   font-size: 40px;
   margin-bottom: 20px;
-  font-weight: 600;
-  color: #126cb5;
 }
 h2 {
   font-size: 36px;
-  font-weight: 600;
   margin-bottom: 5px;
-  color: #126cb5;
 }
 h4 {
   color: #001238;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
 }
 p {
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 400;
   color: #001238;
   text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.7px;
 }
 a {
   text-decoration: none !important;
@@ -60,20 +55,22 @@ a {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   outline: none;
+  font-family: 'Roboto', sans-serif;
 }
 a:hover,
 a:focus {
   text-decoration: none !important;
   outline: none !important;
 }
-.btn-green {
+.btn-blue {
   display: inline-block;
   color: #fff;
-  background-color: #32c0a0;
+  background-color: #4099d4;
   border-radius: 25px;
   padding: 12px 20px;
   font-weight: 600;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
 .btn-transparent {
   display: inline-block;
@@ -83,13 +80,20 @@ a:focus {
   padding: 12px 20px;
   font-weight: 600;
   font-size: 15px;
+  font-family: 'Roboto', sans-serif;
 }
-.btn-green:hover,
-.btn-transparent:hover {
+.btn-blue:hover
+{
   color: #fff;
-  background-color: #2aa48c;
+  background-color: #136cb5;
   text-decoration: none;
-  border: #2aa48c;
+  border: #136cb5 1px solid;
+}
+.btn-transparent:hover{
+  color:#136cb5 ;
+  background-color: #fff;
+  text-decoration: none;
+  border: #fff;
 }
 .textlight {
   color: #4099d4;
@@ -110,6 +114,19 @@ a:focus {
   background-color: #4099d4;
 
   transition: background-color 0.6s ease;
+}
+.pr-6{
+  padding-right: 6rem;
+}
+.pl-6{
+  padding-left: 6rem;
+}
+.shadow-box{
+  --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    --tw-shadow: 0 0 2.5rem #00000066;
+    /* --tw-shadow-colored: 0 0 2.5rem var(--tw-shadow-color); */
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 /*=======common css===========*/
 /*=======navbar css===========*/

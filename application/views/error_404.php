@@ -11,7 +11,7 @@
                     <h2 class="text-anime-style-3">Page Now Found!</h2>
                     <p class="wow fadeInUp" data-wow-delay="0.5s">No webpage was found for the web address: <?= current_url(); ?></p>
                 </div>
-                <?= anchor('', 'Back To Home', 'class="btn-green"'); ?>
+                <?= anchor('', 'Back To Home', 'class="btn-blue"'); ?>
             </div>
         </div>
     </div>

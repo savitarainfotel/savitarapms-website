@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <?= link_tag('assets/css/custom.css' . ASSET_VERSION) ?>
     <?= link_tag('assets/css/responsive.css' . ASSET_VERSION) ?>
@@ -39,7 +43,7 @@
                                     <?= anchor('channel-manager', 'Savitar Channel Manager', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('user-dashboard', 'UserDashboard', 'class="dropdown-item"'); ?>
+                                    <?= anchor('user-dashboard', 'User Dashboard', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
                                     <?= anchor('receptionist', 'Receptionist', 'class="dropdown-item"'); ?>
@@ -55,22 +59,22 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <?= anchor('javascript:;', 'Payroll Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('payroll-management', 'Payroll Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('javascript:;', 'Digital Marketing', 'class="dropdown-item"'); ?>
+                                    <?= anchor('digital-marketing ', 'Digital Marketing', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('javascript:;', 'Website Builder', 'class="dropdown-item"'); ?>
+                                    <?= anchor('website-builder', 'Website Builder', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('javascript:;', 'Revenue Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('revenue-management', 'Revenue Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('javascript:;', 'Repetition Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('repetition_management', 'Repetition Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('javascript:;', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
+                                    <?= anchor('resource-finder-repai', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
                                 </li>
                             </ul>
                         </li>
@@ -89,10 +93,10 @@
                         </li>
                         <li class="nav-item">
                             <?= anchor('contact-us', 'Contact us', 'class="nav-link active"'); ?>
-                            
+
                         </li>
                     </ul>
-                    <?= anchor('contact-us', 'Request a Demo', 'class="btn-green"'); ?>
+                    <?= anchor('contact-us', 'Request a Demo', 'class="btn-blue"'); ?>
                 </div>
             </div>
         </nav>
@@ -113,7 +117,8 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span>FF - 123, I Square, Science City Rd, nr. shukan mall,Crossroads,Sola, Ahmedabad, Gujarat 380060</span><br>
+                                <span ><strong><u>India</u> </strong>: FF - 123, I Square, Science City Rd, nr. shukan mall,Crossroads,Sola, Ahmedabad, Gujarat 380060</span><br><br>
+                                <span ><strong><u>USA</u> </strong>: 2108 N ST STE N SACRAMENTO, CA 95816</span><br>
                             </div>
                         </div>
                     </div>
@@ -151,7 +156,7 @@
                             <div class="footer-social-icon">
                                 <span>Follow us</span>
                                 <a href="https://www.facebook.com/profile.php?id=61560490731398"><i class="fab fa-facebook-f facebook-bg"></i></a>
-                                <a href="https://x.com/savitar_pms"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="https://x.com/savitar_pms"><i class="fab fa-x-twitter twitter-bg"></i></a>
                                 <a href="https://www.instagram.com/savitar_.pms/"><i class="fab fa-instagram google-bg"></i></a>
                                 <a href="https://www.linkedin.com/company/savitar-pms/"><i class="fab fa-linkedin facebook-bg"></i></a>
                                 <a href="https://www.youtube.com/@savitarpms"><i class="fab fa-youtube twitter-bg"></i></a>
@@ -190,11 +195,11 @@
                             </div>
                             <div class="subscribe-form">
                                 <?= form_open('subscribe', 'class="ajax-form"'); ?>
-                                    <div class="col-12 error-message"></div>
-                                    <div class="input-group">
-                                        <input type="text" name="email" placeholder="Email Address" />
-                                        <button type="submit"><i class="fab fa-telegram-plane"></i></button>
-                                    </div>
+                                <div class="col-12 error-message"></div>
+                                <div class="input-group">
+                                    <input type="text" name="email" placeholder="Email Address" />
+                                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                                </div>
                                 <?= form_close(); ?>
                             </div>
                         </div>
@@ -207,7 +212,8 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="javascript:;">Savitar PMS</a></p>
+                            <!-- <p>Copyright &copy; 2018, All Right Reserved <a href="javascript:;">Savitar PMS</a></p> -->
+                            <p>Developed By @ <a href="https://www.savitarainfotel.com/">Savitara Infotel Pvt. Ltd.</a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -217,14 +223,12 @@
                                     <?= anchor('', 'Home'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Terms'); ?>
+                                    <?= anchor('termsofservice', 'Terms of Service'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('', 'Privacy'); ?>
+                                    <?= anchor('privacypolicy', 'Privacy Policy'); ?>
                                 </li>
-                                <li>
-                                    <?= anchor('', 'Policy'); ?>
-                                </li>
+
                                 <li>
                                     <?= anchor('contact-us', 'Contact us'); ?>
                                 </li>

@@ -6,7 +6,7 @@
                 <div class="col-lg-6 p-5">
                     <h1 class="text-white">The Savitar Receptionist Features You Need for Seamless Hotel Management
                     </h1>
-                    <p class="text-justify text-white fs-5">Enhance your hotel's front desk operations with The Savitar Receptionist Features You Need. Our comprehensive suite of tools empowers your reception staff to efficiently manage booking requests, room reservations, and guest services. From handling today's bookings to managing extra services and processing payments, Savitar provides everything you need for a smooth and effective reception operation. Improve guest satisfaction and streamline your workflow with our intuitive and powerful receptionist features designed to optimize hotel management and enhance the guest experience.</p>
+                    <p class="text-justify text-white ">Enhance your hotel's front desk operations with The Savitar Receptionist Features You Need. Our comprehensive suite of tools empowers your reception staff to efficiently manage booking requests, room reservations, and guest services. From handling today's bookings to managing extra services and processing payments, Savitar provides everything you need for a smooth and effective reception operation. Improve guest satisfaction and streamline your workflow with our intuitive and powerful receptionist features designed to optimize hotel management and enhance the guest experience.</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="./assets/images/The Savitar Receptionist Features You Need for Seamless Hotel Management.png" alt="Receptionist Features" srcset="" class="img-fluid">

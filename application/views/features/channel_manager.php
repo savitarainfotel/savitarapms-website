@@ -6,7 +6,7 @@
                 <div class="col-lg-6 p-5">
                     <h1 class="text-white">Savitar Channel Manager: Optimize Your Hotel's Distribution Strategy
                     </h1>
-                    <p class="text-justify text-white fs-5">Maximize your hotel's reach and revenue with Savitar Channel Manager. Our advanced technology ensures seamless connectivity with multiple online travel agencies, global distribution systems, and direct booking platforms. With real-time synchronization, automated reservation downloads, and comprehensive booking controls, Savitar Channel Manager streamlines your operations and enhances your guest experience. Stay competitive and boost your profitability with our all-in-one platform that simplifies inventory management and utilizes the latest functions for optimal performance.</p>
+                    <p class="text-justify text-white ">Maximize your hotel's reach and revenue with Savitar Channel Manager. Our advanced technology ensures seamless connectivity with multiple online travel agencies, global distribution systems, and direct booking platforms. With real-time synchronization, automated reservation downloads, and comprehensive booking controls, Savitar Channel Manager streamlines your operations and enhances your guest experience. Stay competitive and boost your profitability with our all-in-one platform that simplifies inventory management and utilizes the latest functions for optimal performance.</p>
                 </div>
                 <div class="col-lg-6">
                     <img src="./assets/images/Savitar Channel Manager Optimize Your Hotel's Distribution Strategy.png" alt="chanel manager" srcset="" class="img-fluid">

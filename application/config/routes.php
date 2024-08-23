@@ -17,6 +17,14 @@ $route["channel-manager"] = "features/channel_manager";
 $route["receptionist"] = "features/receptionist";
 $route["admin"] = "features/admin";
 
+//add on routes
+$route["payroll-management"] = "add_on/payroll_management";
+$route["digital-marketing"] = "add_on/digital_marketing";
+$route["website-builder"] = "add_on/website_builder";
+$route["revenue-management"] = "add_on/revenue_management";
+$route["repetition_management"] = "add_on/repetition_management";
+$route["resource-finder-repair"] = "add_on/resource_finder_repair";
+
 // api routes
 $route["subscribe"] = "api/subscribe";
 $route["contact-us"]["post"] = "api/contact";

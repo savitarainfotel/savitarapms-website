@@ -11,7 +11,7 @@
                 </p>
             </div>
 
-            <div class="row mt-3 reverse">
+            <div class="row mt-3 reverse g-3">
                 <div class="col-lg-4 bg-darkblue  contact-info p-4">
                     <h2 class="text-white">Contact Information</h2>
                     <h5 class="">Have some big idea or brand to develop and need help?</h5>
@@ -30,88 +30,98 @@
                         </li>
                         <li class="  ">
                             <i class="fas fa-map-marker-alt"></i>
-                            <span class="">FF - 123, I Square, Science City Rd, nr. Shukan Mall, Crossroads, Sola,
-                                Ahmedabad, Gujarat 380060</span>
+                            <div>
+                                <p class="text-white"><strong>India : </strong>FF - 123, I Square, Science City Rd, nr. Shukan Mall, Crossroads, Sola,
+                                    Ahmedabad, Gujarat 380060</p>
+                                <p class="text-white"><strong>USA : </strong> N ST STE N SACRAMENTO, CA 95816</p>
+                            </div>
+
                         </li>
+                        <!-- <div>
+                            <img src="https://www.savitarainfotel.com/assets/images/adr-flag-ind.png" alt="" srcset=""><br><span class=""> FF - 123, I Square, Science City Rd, nr. Shukan Mall, Crossroads, Sola,
+                                Ahmedabad, Gujarat 380060</span> <br>
+                                <img src="https://www.savitarainfotel.com/assets/images/adr-flag-ind.png" alt="" srcset=""><br>
+                            <span class="">2108 N ST STE N SACRAMENTO, CA 95816</span>
+                            </div> -->
                     </ul>
                 </div>
                 <div class="col-lg-8">
                     <?= form_open('', 'class="ajax-form"'); ?>
                     <div class="row contact-form">
-                            <div class="col-12 error-message"></div>
-                            <!-- First Name -->
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="first_name" placeholder="First Name" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-user textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Last Name -->
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="last_name" placeholder="Last Name" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-user textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Phone No. -->
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="phone_number" placeholder="Mobile No." class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-phone textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Email Address -->
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="email" name="email" placeholder="Email Address" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-envelope textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <!-- Country -->
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="country" placeholder="Country" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-globe textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="city" placeholder="City" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-city textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-12 form-group">
-                                <div class="input-group">
-                                    <input type="text" name="property_name" placeholder="Property Name" class="form-control" />
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-peace textdark"></i>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="col-12 form-group">
-                                <div class="input-group">
-                                    <textarea class="form-control" name="message" placeholder="Your Message" rows="2"></textarea>
-                                    <span class="input-group-text bg-white">
-                                        <i class="fa fa-message textdark"></i>
-                                    </span>
-                                </div>
+                        <div class="col-12 error-message"></div>
+                        <!-- First Name -->
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="text" name="first_name" placeholder="First Name" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-user textdark"></i>
+                                </span>
                             </div>
                         </div>
-                        <div class=" text-center">
-                            <button type="submit" class="btn bg-darkblue text-white w-50 rounded-pill">Send Message</button>
+                        <!-- Last Name -->
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="text" name="last_name" placeholder="Last Name" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-user textdark"></i>
+                                </span>
+                            </div>
                         </div>
+                        <!-- Phone No. -->
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="text" name="phone_number" placeholder="Mobile No." class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-phone textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Email Address -->
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="email" name="email" placeholder="Email Address" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-envelope textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Country -->
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="text" name="country" placeholder="Country" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-globe textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <div class="input-group">
+                                <input type="text" name="city" placeholder="City" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-city textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="input-group">
+                                <input type="text" name="property_name" placeholder="Property Name" class="form-control" />
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-peace textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-12 form-group">
+                            <div class="input-group">
+                                <textarea class="form-control" name="message" placeholder="Your Message" rows="2"></textarea>
+                                <span class="input-group-text bg-white">
+                                    <i class="fa fa-message textdark"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" text-center">
+                        <button type="submit" class="btn btn-blue w-50">Send Message</button>
+                    </div>
                     <?= form_close(); ?>
                 </div>
             </div>

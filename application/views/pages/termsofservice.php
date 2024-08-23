@@ -1,4 +1,5 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+<main>
 <div class="container my-5 py-3">
     <h1>Terms of Service</h1>
     <p>Last Updated: June 18, 2024</p>
@@ -74,3 +75,4 @@
 
 
 </div>
+</main>
