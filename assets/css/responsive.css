@@ -24,8 +24,8 @@
         font-size: 19px;
     }
     .banner_content p {
-        font-weight: 500;
-        font-size: 16px;
+        /* font-weight: 500;
+        font-size: 16px; */
         padding: 10px 0px 10px;
     }
     .video {

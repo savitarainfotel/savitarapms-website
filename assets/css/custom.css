@@ -204,8 +204,8 @@ a:focus {
 }
 .banner_content p {
   /* margin-top: 5%; */
-  font-weight: 300;
-  font-size: 25px;
+  /* font-weight: 300;
+  font-size: 25px; */
   line-height: 24px;
   padding: 10px 0px 20px;
 }

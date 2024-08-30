@@ -5,11 +5,20 @@
 <head>
     <!-- Google Tag Manager -->
     <script>
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-W3BVML9T');
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W3BVML9T');
     </script>
     <!-- End Google Tag Manager -->
     <!-- Required meta tags -->
@@ -71,23 +80,29 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li>
-                                    <?= anchor('payroll-management', 'Payroll Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Payroll Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('digital-marketing ', 'Digital Marketing', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Digital Marketing', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('website-builder', 'Website Builder', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Website Builder', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('revenue-management', 'Revenue Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Revenue Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('repetition_management', 'Repetition Management', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Repetition Management', 'class="dropdown-item"'); ?>
                                 </li>
                                 <li>
-                                    <?= anchor('resource-finder-repai', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
+                                    <?= anchor('', 'Resources Finder and Repair Soluction', 'class="dropdown-item"'); ?>
                                 </li>
+                                <!-- payroll-management
+                                digital-marketing
+                                website-builder
+                                revenue-management
+                                repetition_management
+                                resource-finder-repai -->
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -129,8 +144,8 @@
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span ><strong><u>India</u> </strong>: FF - 123, I Square, Science City Rd, nr. shukan mall,Crossroads,Sola, Ahmedabad, Gujarat 380060</span><br><br>
-                                <span ><strong><u>USA</u> </strong>: 2108 N ST STE N SACRAMENTO, CA 95816</span><br>
+                                <span><strong><u>India</u> </strong>: FF - 123, I Square, Science City Rd, nr. shukan mall,Crossroads,Sola, Ahmedabad, Gujarat 380060</span><br><br>
+                                <span><strong><u>USA</u> </strong>: 2108 N ST STE N SACRAMENTO, CA 95816</span><br>
                             </div>
                         </div>
                     </div>
