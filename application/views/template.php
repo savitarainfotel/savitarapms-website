@@ -172,7 +172,7 @@
             </div>
             <div class="footer-content pt-5 pb-5">
                 <div class="row g-4">
-                    <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="col-xl-3 col-lg-3 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
                                 <?= anchor('', img(['src' => "assets/logo.png", 'alt' => "savitara infotel logo", "class" => "img-fluid"])); ?>
@@ -190,7 +190,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-30">
                         <div class="footer-widget pl-60">
                             <div class="footer-widget-heading">
                                 <h3>Useful Links</h3>
@@ -212,7 +212,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>Subscribe</h3>
@@ -225,6 +225,25 @@
                                 <div class="col-12 error-message"></div>
                                 <div class="input-group">
                                     <input type="text" name="email" placeholder="Email Address" />
+                                    <button type="submit"><i class="fab fa-telegram-plane"></i></button>
+                                </div>
+                                <?= form_close(); ?>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <?= form_open('subscribe', 'class="ajax-form"'); ?>
+                                <div class="col-12 error-message"></div>
+                                <div class="input-group">
+                                    <input type="text" name="phone_number" placeholder="Mobile Number" maxlength="10" />
                                     <button type="submit"><i class="fab fa-telegram-plane"></i></button>
                                 </div>
                                 <?= form_close(); ?>

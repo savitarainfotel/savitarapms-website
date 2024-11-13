@@ -8,19 +8,21 @@ class Api extends Public_Controller
     {
         if(!empty($this->input->post()) && $this->input->is_ajax_request()) {
             $post = [
-                'email'         => $this->input->post('email'),
+                'email'         => $this->input->post('email') ?? $this->input->post('phone_number'),
                 'domain_id'     => $this->domain['id'],
                 'created_at'    => date('Y-m-d H:i:s')
             ];
 
             $u_id = $this->main->add($post, "subscribe");
 
-            if($u_id) {
+            $messege = $this->input->post('email') ? "Thank You for subscribing!" : "<strong>Thank you for subscribing to SavitarPMS Updates!</strong><p>You will now receive exclusive updates, offers, and important notifications via SMS</p>";
+
+            if($this->input->post('email') && $u_id) {
                 $this->load->library('appmails');
                 $this->appmails->subscribe($this->input->post());
             }
 
-            responseMsg($u_id, "Thank You for subscribing!", "Subscription not saved. Try again.");
+            responseMsg($u_id, $messege, "Subscription not saved. Try again.");
         } else 
             return $this->error_404();
     }
