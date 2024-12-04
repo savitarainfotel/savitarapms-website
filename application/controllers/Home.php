@@ -21,6 +21,16 @@ class Home extends Public_Controller
         $data['breadcumb'] = 'Contact Us';
 		return $this->template->load('template', 'pages/contact', $data);
     }
+    public function optout()
+    {
+        $data['breadcumb'] = 'Opt Out';
+		return $this->template->load('template', 'pages/optout', $data);
+    }
+    public function optin()
+    {
+        $data['breadcumb'] = 'Opt In';
+		return $this->template->load('template', 'pages/optin', $data);
+    }
     
     public function privacypolicy()
     {

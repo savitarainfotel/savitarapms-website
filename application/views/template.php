@@ -208,6 +208,12 @@
                                 <li>
                                     <?= anchor('contact-us', 'Contact us'); ?>
                                 </li>
+                                <li>
+                                    <?= anchor('opt-out', 'Opt Out'); ?>
+                                </li>
+                                <li>
+                                    <?= anchor('opt-in', 'Opt In'); ?>
+                                </li>
 
                             </ul>
                         </div>

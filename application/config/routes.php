@@ -9,6 +9,8 @@ $route["about"] = "home/about";
 $route["contact-us"]["get"] = "home/contact";
 $route["privacypolicy"] = "home/privacypolicy";
 $route["termsofservice"] = "home/termsofservice";
+$route["opt-out"] = "home/optout";
+$route["opt-in"] = "home/optin";
 
 // features routes
 $route["crs-intigration"] = "features/crs_intigration";
